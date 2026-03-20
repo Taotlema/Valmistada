@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="349ee362-6890-43c9-911b-df3252416cf3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SD_Game/app_controller/event_bus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/app_controller/screen_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/assets/icons/placeholder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/assets/images/placeholder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/assets/maps/placeholder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/config/settings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/config/simulation_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/loaders/gtfs_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/loaders/modifier_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/loaders/output_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/models/data_validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/models/gtfs_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/models/output_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/storage/csv_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/storage/export_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/storage/file_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/data/storage/txt_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/core/event_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/core/simulation_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/core/time_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/entities/base_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/entities/passenger_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/entities/route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/entities/station.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/entities/vechile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/map/graph_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/map/map_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/map/renderer_adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/systems/modifier_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/systems/ridership_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/game_world/systems/scheduling_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/output/trials/placeholder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/base/base_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/base/base_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/base/layout_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/components/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/components/dashboard_widget.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/components/dropdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/components/scroll_area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/components/status_indicator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/screens/dictionary_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/screens/game_world_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/screens/input_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/screens/loading_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/screens/output_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SD_Game/ui/screens/start_screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GTFS-Exploration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SD_Game/Placeholder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SD_Game/app_controller/app.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3BB2RCOm0zuYOxUDSnryzPTsHER" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Owner/Documents/GitHub/Valmistada",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="349ee362-6890-43c9-911b-df3252416cf3" name="Changes" comment="" />
+      <created>1773948133026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773948133026</updated>
+      <workItem from="1773948134191" duration="3410000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

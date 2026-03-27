@@ -1,0 +1,43 @@
+# Simulation Configuration
+simulation:
+  sim_year: 2019
+  ticks_per_day: 288          # 5-min intervals
+  speed_levels: [1, 2, 5, 10, 20]
+  default_speed: 1
+
+  # Ridership base multipliers by day type
+  day_type_multipliers:
+    Weekday: 1.0
+    Saturday: 0.72
+    Sunday: 0.58
+
+  # Monthly seasonal index (Jan=1 … Dec=12)
+  seasonal_index:
+    1:  0.88   # January
+    2:  0.91
+    3:  0.96
+    4:  1.00
+    5:  1.03
+    6:  1.05
+    7:  1.01
+    8:  1.00
+    9:  1.04
+    10: 1.02
+    11: 0.95
+    12: 0.87   # December
+
+  # Morning and evening peak hour boosts
+  peak_boost:
+    am_start: 7
+    am_end:   9
+    pm_start: 16
+    pm_end:   19
+    factor:   1.35
+
+  # Noise parameters
+  noise_std: 0.08             # Daily stochastic noise (std-dev fraction)
+
+  # Vehicle
+  vehicle_speed_kmh: 18.0
+  vehicle_capacity: 60
+  dwell_time_s: 30

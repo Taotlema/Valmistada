@@ -1,0 +1,121 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+August 2019,1,Bus,Weekday,795
+August 2019,12,Bus,Weekday,862
+August 2019,14,Bus,Weekday,870
+August 2019,15,Bus,Weekday,794
+August 2019,18,Bus,Weekday,793
+August 2019,19,Bus,Weekday,"1,008"
+August 2019,2,Bus,Weekday,659
+August 2019,22,Bus,Weekday,786
+August 2019,23,Bus,Weekday,866
+August 2019,24,Bus,Weekday,"1,013"
+August 2019,25,Bus,Weekday,598
+August 2019,27,Bus,Weekday,862
+August 2019,28,Bus,Weekday,789
+August 2019,CA,Cable Car,Weekday,606
+August 2019,PH,Cable Car,Weekday,652
+August 2019,PM,Cable Car,Weekday,596
+August 2019,F,Light Rail,Weekday,726
+August 2019,FBUS,Light Rail,Weekday,660
+August 2019,J,Light Rail,Weekday,721
+August 2019,K,Light Rail,Weekday,662
+August 2019,L,Light Rail,Weekday,792
+August 2019,M,Light Rail,Weekday,691
+August 2019,N,Light Rail,Weekday,724
+August 2019,T,Light Rail,Weekday,727
+August 2019,14R,Bus,Weekday,726
+August 2019,1X,Bus,Weekday,660
+August 2019,28R,Bus,Weekday,658
+August 2019,29,Bus,Weekday,"1,011"
+August 2019,30,Bus,Weekday,863
+August 2019,30X,Bus,Weekday,599
+August 2019,31,Bus,Weekday,787
+August 2019,33,Bus,Weekday,862
+August 2019,35,Bus,Weekday,793
+August 2019,36,Bus,Weekday,860
+August 2019,37,Bus,Weekday,792
+August 2019,38,Bus,Weekday,864
+August 2019,38R,Bus,Weekday,724
+August 2019,39,Bus,Weekday,658
+August 2019,43,Bus,Weekday,"1,015"
+August 2019,44,Bus,Weekday,943
+August 2019,1,Bus,Saturday,701
+August 2019,12,Bus,Saturday,759
+August 2019,14,Bus,Saturday,761
+August 2019,15,Bus,Saturday,717
+August 2019,18,Bus,Saturday,711
+August 2019,19,Bus,Saturday,867
+August 2019,2,Bus,Saturday,605
+August 2019,22,Bus,Saturday,713
+August 2019,23,Bus,Saturday,769
+August 2019,24,Bus,Saturday,879
+August 2019,25,Bus,Saturday,561
+August 2019,27,Bus,Saturday,755
+August 2019,28,Bus,Saturday,710
+August 2019,CA,Cable Car,Saturday,571
+August 2019,PH,Cable Car,Saturday,609
+August 2019,PM,Cable Car,Saturday,558
+August 2019,F,Light Rail,Saturday,655
+August 2019,FBUS,Light Rail,Saturday,610
+August 2019,J,Light Rail,Saturday,658
+August 2019,K,Light Rail,Saturday,611
+August 2019,L,Light Rail,Saturday,710
+August 2019,M,Light Rail,Saturday,631
+August 2019,N,Light Rail,Saturday,654
+August 2019,T,Light Rail,Saturday,660
+August 2019,14R,Bus,Saturday,658
+August 2019,1X,Bus,Saturday,608
+August 2019,28R,Bus,Saturday,607
+August 2019,29,Bus,Saturday,868
+August 2019,30,Bus,Saturday,756
+August 2019,30X,Bus,Saturday,558
+August 2019,31,Bus,Saturday,711
+August 2019,33,Bus,Saturday,764
+August 2019,35,Bus,Saturday,713
+August 2019,36,Bus,Saturday,761
+August 2019,37,Bus,Saturday,707
+August 2019,38,Bus,Saturday,765
+August 2019,38R,Bus,Saturday,655
+August 2019,39,Bus,Saturday,605
+August 2019,43,Bus,Saturday,871
+August 2019,44,Bus,Saturday,815
+August 2019,1,Bus,Sunday,659
+August 2019,12,Bus,Sunday,698
+August 2019,14,Bus,Sunday,699
+August 2019,15,Bus,Sunday,656
+August 2019,18,Bus,Sunday,663
+August 2019,19,Bus,Sunday,791
+August 2019,2,Bus,Sunday,584
+August 2019,22,Bus,Sunday,656
+August 2019,23,Bus,Sunday,696
+August 2019,24,Bus,Sunday,794
+August 2019,25,Bus,Sunday,542
+August 2019,27,Bus,Sunday,699
+August 2019,28,Bus,Sunday,660
+August 2019,CA,Cable Car,Sunday,548
+August 2019,PH,Cable Car,Sunday,576
+August 2019,PM,Cable Car,Sunday,540
+August 2019,F,Light Rail,Sunday,617
+August 2019,FBUS,Light Rail,Sunday,580
+August 2019,J,Light Rail,Sunday,615
+August 2019,K,Light Rail,Sunday,580
+August 2019,L,Light Rail,Sunday,663
+August 2019,M,Light Rail,Sunday,603
+August 2019,N,Light Rail,Sunday,626
+August 2019,T,Light Rail,Sunday,619
+August 2019,14R,Bus,Sunday,615
+August 2019,1X,Bus,Sunday,582
+August 2019,28R,Bus,Sunday,577
+August 2019,29,Bus,Sunday,798
+August 2019,30,Bus,Sunday,713
+August 2019,30X,Bus,Sunday,543
+August 2019,31,Bus,Sunday,658
+August 2019,33,Bus,Sunday,703
+August 2019,35,Bus,Sunday,664
+August 2019,36,Bus,Sunday,699
+August 2019,37,Bus,Sunday,660
+August 2019,38,Bus,Sunday,707
+August 2019,38R,Bus,Sunday,622
+August 2019,39,Bus,Sunday,580
+August 2019,43,Bus,Sunday,801
+August 2019,44,Bus,Sunday,744

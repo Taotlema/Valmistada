@@ -1,0 +1,121 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+November 2019,1,Bus,Weekday,776
+November 2019,12,Bus,Weekday,854
+November 2019,14,Bus,Weekday,848
+November 2019,15,Bus,Weekday,781
+November 2019,18,Bus,Weekday,777
+November 2019,19,Bus,Weekday,993
+November 2019,2,Bus,Weekday,652
+November 2019,22,Bus,Weekday,781
+November 2019,23,Bus,Weekday,844
+November 2019,24,Bus,Weekday,997
+November 2019,25,Bus,Weekday,593
+November 2019,27,Bus,Weekday,850
+November 2019,28,Bus,Weekday,787
+November 2019,CA,Cable Car,Weekday,602
+November 2019,PH,Cable Car,Weekday,651
+November 2019,PM,Cable Car,Weekday,591
+November 2019,F,Light Rail,Weekday,716
+November 2019,FBUS,Light Rail,Weekday,651
+November 2019,J,Light Rail,Weekday,715
+November 2019,K,Light Rail,Weekday,651
+November 2019,L,Light Rail,Weekday,781
+November 2019,M,Light Rail,Weekday,686
+November 2019,N,Light Rail,Weekday,717
+November 2019,T,Light Rail,Weekday,714
+November 2019,14R,Bus,Weekday,718
+November 2019,1X,Bus,Weekday,649
+November 2019,28R,Bus,Weekday,653
+November 2019,29,Bus,Weekday,995
+November 2019,30,Bus,Weekday,850
+November 2019,30X,Bus,Weekday,593
+November 2019,31,Bus,Weekday,775
+November 2019,33,Bus,Weekday,847
+November 2019,35,Bus,Weekday,775
+November 2019,36,Bus,Weekday,851
+November 2019,37,Bus,Weekday,782
+November 2019,38,Bus,Weekday,847
+November 2019,38R,Bus,Weekday,716
+November 2019,39,Bus,Weekday,652
+November 2019,43,Bus,Weekday,991
+November 2019,44,Bus,Weekday,914
+November 2019,1,Bus,Saturday,685
+November 2019,12,Bus,Saturday,741
+November 2019,14,Bus,Saturday,731
+November 2019,15,Bus,Saturday,687
+November 2019,18,Bus,Saturday,684
+November 2019,19,Bus,Saturday,829
+November 2019,2,Bus,Saturday,594
+November 2019,22,Bus,Saturday,686
+November 2019,23,Bus,Saturday,732
+November 2019,24,Bus,Saturday,842
+November 2019,25,Bus,Saturday,551
+November 2019,27,Bus,Saturday,744
+November 2019,28,Bus,Saturday,683
+November 2019,CA,Cable Car,Saturday,558
+November 2019,PH,Cable Car,Saturday,589
+November 2019,PM,Cable Car,Saturday,552
+November 2019,F,Light Rail,Saturday,634
+November 2019,FBUS,Light Rail,Saturday,595
+November 2019,J,Light Rail,Saturday,641
+November 2019,K,Light Rail,Saturday,594
+November 2019,L,Light Rail,Saturday,687
+November 2019,M,Light Rail,Saturday,612
+November 2019,N,Light Rail,Saturday,635
+November 2019,T,Light Rail,Saturday,633
+November 2019,14R,Bus,Saturday,636
+November 2019,1X,Bus,Saturday,594
+November 2019,28R,Bus,Saturday,595
+November 2019,29,Bus,Saturday,834
+November 2019,30,Bus,Saturday,729
+November 2019,30X,Bus,Saturday,552
+November 2019,31,Bus,Saturday,690
+November 2019,33,Bus,Saturday,725
+November 2019,35,Bus,Saturday,679
+November 2019,36,Bus,Saturday,738
+November 2019,37,Bus,Saturday,690
+November 2019,38,Bus,Saturday,739
+November 2019,38R,Bus,Saturday,638
+November 2019,39,Bus,Saturday,594
+November 2019,43,Bus,Saturday,834
+November 2019,44,Bus,Saturday,785
+November 2019,1,Bus,Sunday,643
+November 2019,12,Bus,Sunday,672
+November 2019,14,Bus,Sunday,677
+November 2019,15,Bus,Sunday,646
+November 2019,18,Bus,Sunday,638
+November 2019,19,Bus,Sunday,758
+November 2019,2,Bus,Sunday,564
+November 2019,22,Bus,Sunday,634
+November 2019,23,Bus,Sunday,671
+November 2019,24,Bus,Sunday,758
+November 2019,25,Bus,Sunday,531
+November 2019,27,Bus,Sunday,674
+November 2019,28,Bus,Sunday,632
+November 2019,CA,Cable Car,Sunday,535
+November 2019,PH,Cable Car,Sunday,561
+November 2019,PM,Cable Car,Sunday,528
+November 2019,F,Light Rail,Sunday,603
+November 2019,FBUS,Light Rail,Sunday,565
+November 2019,J,Light Rail,Sunday,601
+November 2019,K,Light Rail,Sunday,564
+November 2019,L,Light Rail,Sunday,640
+November 2019,M,Light Rail,Sunday,574
+November 2019,N,Light Rail,Sunday,598
+November 2019,T,Light Rail,Sunday,600
+November 2019,14R,Bus,Sunday,598
+November 2019,1X,Bus,Sunday,567
+November 2019,28R,Bus,Sunday,563
+November 2019,29,Bus,Sunday,748
+November 2019,30,Bus,Sunday,674
+November 2019,30X,Bus,Sunday,528
+November 2019,31,Bus,Sunday,638
+November 2019,33,Bus,Sunday,670
+November 2019,35,Bus,Sunday,640
+November 2019,36,Bus,Sunday,672
+November 2019,37,Bus,Sunday,642
+November 2019,38,Bus,Sunday,677
+November 2019,38R,Bus,Sunday,598
+November 2019,39,Bus,Sunday,562
+November 2019,43,Bus,Sunday,755
+November 2019,44,Bus,Sunday,710

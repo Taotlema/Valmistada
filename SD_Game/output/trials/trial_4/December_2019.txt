@@ -1,0 +1,121 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+December 2019,1,Bus,Sunday,602
+December 2019,12,Bus,Sunday,627
+December 2019,14,Bus,Sunday,630
+December 2019,15,Bus,Sunday,600
+December 2019,18,Bus,Sunday,598
+December 2019,19,Bus,Sunday,699
+December 2019,2,Bus,Sunday,543
+December 2019,22,Bus,Sunday,604
+December 2019,23,Bus,Sunday,630
+December 2019,24,Bus,Sunday,695
+December 2019,25,Bus,Sunday,516
+December 2019,27,Bus,Sunday,637
+December 2019,28,Bus,Sunday,601
+December 2019,CA,Cable Car,Sunday,519
+December 2019,PH,Cable Car,Sunday,538
+December 2019,PM,Cable Car,Sunday,513
+December 2019,F,Light Rail,Sunday,572
+December 2019,FBUS,Light Rail,Sunday,543
+December 2019,J,Light Rail,Sunday,574
+December 2019,K,Light Rail,Sunday,543
+December 2019,L,Light Rail,Sunday,602
+December 2019,M,Light Rail,Sunday,556
+December 2019,N,Light Rail,Sunday,569
+December 2019,T,Light Rail,Sunday,569
+December 2019,14R,Bus,Sunday,572
+December 2019,1X,Bus,Sunday,543
+December 2019,28R,Bus,Sunday,543
+December 2019,29,Bus,Sunday,697
+December 2019,30,Bus,Sunday,626
+December 2019,30X,Bus,Sunday,515
+December 2019,31,Bus,Sunday,602
+December 2019,33,Bus,Sunday,633
+December 2019,35,Bus,Sunday,602
+December 2019,36,Bus,Sunday,636
+December 2019,37,Bus,Sunday,601
+December 2019,38,Bus,Sunday,634
+December 2019,38R,Bus,Sunday,568
+December 2019,39,Bus,Sunday,540
+December 2019,43,Bus,Sunday,689
+December 2019,44,Bus,Sunday,665
+December 2019,1,Bus,Weekday,717
+December 2019,12,Bus,Weekday,772
+December 2019,14,Bus,Weekday,776
+December 2019,15,Bus,Weekday,721
+December 2019,18,Bus,Weekday,715
+December 2019,19,Bus,Weekday,890
+December 2019,2,Bus,Weekday,615
+December 2019,22,Bus,Weekday,720
+December 2019,23,Bus,Weekday,771
+December 2019,24,Bus,Weekday,893
+December 2019,25,Bus,Weekday,567
+December 2019,27,Bus,Weekday,780
+December 2019,28,Bus,Weekday,718
+December 2019,CA,Cable Car,Weekday,576
+December 2019,PH,Cable Car,Weekday,613
+December 2019,PM,Cable Car,Weekday,564
+December 2019,F,Light Rail,Weekday,669
+December 2019,FBUS,Light Rail,Weekday,614
+December 2019,J,Light Rail,Weekday,664
+December 2019,K,Light Rail,Weekday,613
+December 2019,L,Light Rail,Weekday,722
+December 2019,M,Light Rail,Weekday,641
+December 2019,N,Light Rail,Weekday,665
+December 2019,T,Light Rail,Weekday,663
+December 2019,14R,Bus,Weekday,667
+December 2019,1X,Bus,Weekday,615
+December 2019,28R,Bus,Weekday,615
+December 2019,29,Bus,Weekday,893
+December 2019,30,Bus,Weekday,774
+December 2019,30X,Bus,Weekday,565
+December 2019,31,Bus,Weekday,719
+December 2019,33,Bus,Weekday,774
+December 2019,35,Bus,Weekday,718
+December 2019,36,Bus,Weekday,771
+December 2019,37,Bus,Weekday,719
+December 2019,38,Bus,Weekday,775
+December 2019,38R,Bus,Weekday,664
+December 2019,39,Bus,Weekday,613
+December 2019,43,Bus,Weekday,894
+December 2019,44,Bus,Weekday,835
+December 2019,1,Bus,Saturday,645
+December 2019,12,Bus,Saturday,698
+December 2019,14,Bus,Saturday,698
+December 2019,15,Bus,Saturday,656
+December 2019,18,Bus,Saturday,650
+December 2019,19,Bus,Saturday,779
+December 2019,2,Bus,Saturday,573
+December 2019,22,Bus,Saturday,652
+December 2019,23,Bus,Saturday,697
+December 2019,24,Bus,Saturday,777
+December 2019,25,Bus,Saturday,536
+December 2019,27,Bus,Saturday,692
+December 2019,28,Bus,Saturday,654
+December 2019,CA,Cable Car,Saturday,541
+December 2019,PH,Cable Car,Saturday,573
+December 2019,PM,Cable Car,Saturday,538
+December 2019,F,Light Rail,Saturday,606
+December 2019,FBUS,Light Rail,Saturday,570
+December 2019,J,Light Rail,Saturday,610
+December 2019,K,Light Rail,Saturday,570
+December 2019,L,Light Rail,Saturday,654
+December 2019,M,Light Rail,Saturday,589
+December 2019,N,Light Rail,Saturday,610
+December 2019,T,Light Rail,Saturday,617
+December 2019,14R,Bus,Saturday,612
+December 2019,1X,Bus,Saturday,574
+December 2019,28R,Bus,Saturday,575
+December 2019,29,Bus,Saturday,785
+December 2019,30,Bus,Saturday,690
+December 2019,30X,Bus,Saturday,536
+December 2019,31,Bus,Saturday,654
+December 2019,33,Bus,Saturday,688
+December 2019,35,Bus,Saturday,645
+December 2019,36,Bus,Saturday,696
+December 2019,37,Bus,Saturday,655
+December 2019,38,Bus,Saturday,696
+December 2019,38R,Bus,Saturday,610
+December 2019,39,Bus,Saturday,574
+December 2019,43,Bus,Saturday,776
+December 2019,44,Bus,Saturday,732

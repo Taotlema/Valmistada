@@ -8,7 +8,7 @@ from data.processors.gtfs_processor import GTFSProcessor
 class MapLoader:
 
     def __init__(self, processor: GTFSProcessor,
-                 canvas_w: int = 800, canvas_h: int = 600, padding: int = 30):
+                 canvas_w: int = 800, canvas_h: int = 600, padding: int = 60):
         self._w   = canvas_w
         self._h   = canvas_h
         self._pad = padding

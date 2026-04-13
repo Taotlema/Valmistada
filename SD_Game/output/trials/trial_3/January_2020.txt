@@ -1,0 +1,41 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+January 2020,1,Bus,Weekday,700
+January 2020,12,Bus,Weekday,730
+January 2020,14,Bus,Weekday,751
+January 2020,15,Bus,Weekday,717
+January 2020,18,Bus,Weekday,704
+January 2020,19,Bus,Weekday,860
+January 2020,2,Bus,Weekday,598
+January 2020,22,Bus,Weekday,702
+January 2020,23,Bus,Weekday,746
+January 2020,24,Bus,Weekday,833
+January 2020,25,Bus,Weekday,556
+January 2020,27,Bus,Weekday,752
+January 2020,28,Bus,Weekday,703
+January 2020,CA,Cable Car,Weekday,565
+January 2020,PH,Cable Car,Weekday,601
+January 2020,PM,Cable Car,Weekday,553
+January 2020,F,Light Rail,Weekday,635
+January 2020,FBUS,Light Rail,Weekday,602
+January 2020,J,Light Rail,Weekday,648
+January 2020,K,Light Rail,Weekday,597
+January 2020,L,Light Rail,Weekday,692
+January 2020,M,Light Rail,Weekday,633
+January 2020,N,Light Rail,Weekday,642
+January 2020,T,Light Rail,Weekday,640
+January 2020,14R,Bus,Weekday,651
+January 2020,1X,Bus,Weekday,597
+January 2020,28R,Bus,Weekday,601
+January 2020,29,Bus,Weekday,853
+January 2020,30,Bus,Weekday,738
+January 2020,30X,Bus,Weekday,556
+January 2020,31,Bus,Weekday,704
+January 2020,33,Bus,Weekday,728
+January 2020,35,Bus,Weekday,696
+January 2020,36,Bus,Weekday,735
+January 2020,37,Bus,Weekday,684
+January 2020,38,Bus,Weekday,748
+January 2020,38R,Bus,Weekday,637
+January 2020,39,Bus,Weekday,585
+January 2020,43,Bus,Weekday,854
+January 2020,44,Bus,Weekday,811

@@ -1,0 +1,121 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+April 2019,1,Bus,Weekday,757
+April 2019,12,Bus,Weekday,816
+April 2019,14,Bus,Weekday,823
+April 2019,15,Bus,Weekday,749
+April 2019,18,Bus,Weekday,752
+April 2019,19,Bus,Weekday,946
+April 2019,2,Bus,Weekday,637
+April 2019,22,Bus,Weekday,754
+April 2019,23,Bus,Weekday,818
+April 2019,24,Bus,Weekday,955
+April 2019,25,Bus,Weekday,579
+April 2019,27,Bus,Weekday,818
+April 2019,28,Bus,Weekday,754
+April 2019,CA,Cable Car,Weekday,587
+April 2019,PH,Cable Car,Weekday,632
+April 2019,PM,Cable Car,Weekday,577
+April 2019,F,Light Rail,Weekday,690
+April 2019,FBUS,Light Rail,Weekday,639
+April 2019,J,Light Rail,Weekday,691
+April 2019,K,Light Rail,Weekday,637
+April 2019,L,Light Rail,Weekday,759
+April 2019,M,Light Rail,Weekday,665
+April 2019,N,Light Rail,Weekday,691
+April 2019,T,Light Rail,Weekday,690
+April 2019,14R,Bus,Weekday,693
+April 2019,1X,Bus,Weekday,634
+April 2019,28R,Bus,Weekday,633
+April 2019,29,Bus,Weekday,949
+April 2019,30,Bus,Weekday,814
+April 2019,30X,Bus,Weekday,580
+April 2019,31,Bus,Weekday,753
+April 2019,33,Bus,Weekday,816
+April 2019,35,Bus,Weekday,756
+April 2019,36,Bus,Weekday,812
+April 2019,37,Bus,Weekday,755
+April 2019,38,Bus,Weekday,813
+April 2019,38R,Bus,Weekday,689
+April 2019,39,Bus,Weekday,637
+April 2019,43,Bus,Weekday,948
+April 2019,44,Bus,Weekday,885
+April 2019,1,Bus,Saturday,686
+April 2019,12,Bus,Saturday,735
+April 2019,14,Bus,Saturday,746
+April 2019,15,Bus,Saturday,688
+April 2019,18,Bus,Saturday,687
+April 2019,19,Bus,Saturday,842
+April 2019,2,Bus,Saturday,599
+April 2019,22,Bus,Saturday,689
+April 2019,23,Bus,Saturday,744
+April 2019,24,Bus,Saturday,849
+April 2019,25,Bus,Saturday,554
+April 2019,27,Bus,Saturday,724
+April 2019,28,Bus,Saturday,691
+April 2019,CA,Cable Car,Saturday,558
+April 2019,PH,Cable Car,Saturday,596
+April 2019,PM,Cable Car,Saturday,556
+April 2019,F,Light Rail,Saturday,648
+April 2019,FBUS,Light Rail,Saturday,590
+April 2019,J,Light Rail,Saturday,642
+April 2019,K,Light Rail,Saturday,596
+April 2019,L,Light Rail,Saturday,692
+April 2019,M,Light Rail,Saturday,618
+April 2019,N,Light Rail,Saturday,640
+April 2019,T,Light Rail,Saturday,642
+April 2019,14R,Bus,Saturday,645
+April 2019,1X,Bus,Saturday,600
+April 2019,28R,Bus,Saturday,594
+April 2019,29,Bus,Saturday,848
+April 2019,30,Bus,Saturday,736
+April 2019,30X,Bus,Saturday,553
+April 2019,31,Bus,Saturday,695
+April 2019,33,Bus,Saturday,742
+April 2019,35,Bus,Saturday,695
+April 2019,36,Bus,Saturday,742
+April 2019,37,Bus,Saturday,690
+April 2019,38,Bus,Saturday,742
+April 2019,38R,Bus,Saturday,640
+April 2019,39,Bus,Saturday,593
+April 2019,43,Bus,Saturday,858
+April 2019,44,Bus,Saturday,796
+April 2019,1,Bus,Sunday,641
+April 2019,12,Bus,Sunday,678
+April 2019,14,Bus,Sunday,678
+April 2019,15,Bus,Sunday,637
+April 2019,18,Bus,Sunday,638
+April 2019,19,Bus,Sunday,750
+April 2019,2,Bus,Sunday,564
+April 2019,22,Bus,Sunday,637
+April 2019,23,Bus,Sunday,681
+April 2019,24,Bus,Sunday,755
+April 2019,25,Bus,Sunday,531
+April 2019,27,Bus,Sunday,682
+April 2019,28,Bus,Sunday,635
+April 2019,CA,Cable Car,Sunday,534
+April 2019,PH,Cable Car,Sunday,563
+April 2019,PM,Cable Car,Sunday,529
+April 2019,F,Light Rail,Sunday,602
+April 2019,FBUS,Light Rail,Sunday,564
+April 2019,J,Light Rail,Sunday,599
+April 2019,K,Light Rail,Sunday,565
+April 2019,L,Light Rail,Sunday,641
+April 2019,M,Light Rail,Sunday,584
+April 2019,N,Light Rail,Sunday,598
+April 2019,T,Light Rail,Sunday,598
+April 2019,14R,Bus,Sunday,598
+April 2019,1X,Bus,Sunday,562
+April 2019,28R,Bus,Sunday,562
+April 2019,29,Bus,Sunday,754
+April 2019,30,Bus,Sunday,677
+April 2019,30X,Bus,Sunday,530
+April 2019,31,Bus,Sunday,628
+April 2019,33,Bus,Sunday,673
+April 2019,35,Bus,Sunday,630
+April 2019,36,Bus,Sunday,674
+April 2019,37,Bus,Sunday,639
+April 2019,38,Bus,Sunday,676
+April 2019,38R,Bus,Sunday,602
+April 2019,39,Bus,Sunday,565
+April 2019,43,Bus,Sunday,752
+April 2019,44,Bus,Sunday,708

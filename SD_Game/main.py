@@ -10,7 +10,6 @@ from PyQt6.QtGui import QIcon
 
 from app_controller.app import AppController
 
-
 # _setup_logging: Configure file and stdout handlers for the session.
 def _setup_logging(log_path: str):
     os.makedirs(os.path.dirname(log_path), exist_ok=True)

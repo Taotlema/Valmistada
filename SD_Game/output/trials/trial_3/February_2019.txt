@@ -1,0 +1,121 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+February 2019,1,Bus,Weekday,769
+February 2019,12,Bus,Weekday,839
+February 2019,14,Bus,Weekday,834
+February 2019,15,Bus,Weekday,772
+February 2019,18,Bus,Weekday,771
+February 2019,19,Bus,Weekday,972
+February 2019,2,Bus,Weekday,645
+February 2019,22,Bus,Weekday,764
+February 2019,23,Bus,Weekday,837
+February 2019,24,Bus,Weekday,969
+February 2019,25,Bus,Weekday,589
+February 2019,27,Bus,Weekday,834
+February 2019,28,Bus,Weekday,770
+February 2019,CA,Cable Car,Weekday,595
+February 2019,PH,Cable Car,Weekday,640
+February 2019,PM,Cable Car,Weekday,588
+February 2019,F,Light Rail,Weekday,703
+February 2019,FBUS,Light Rail,Weekday,643
+February 2019,J,Light Rail,Weekday,704
+February 2019,K,Light Rail,Weekday,643
+February 2019,L,Light Rail,Weekday,768
+February 2019,M,Light Rail,Weekday,676
+February 2019,N,Light Rail,Weekday,702
+February 2019,T,Light Rail,Weekday,710
+February 2019,14R,Bus,Weekday,701
+February 2019,1X,Bus,Weekday,641
+February 2019,28R,Bus,Weekday,644
+February 2019,29,Bus,Weekday,978
+February 2019,30,Bus,Weekday,837
+February 2019,30X,Bus,Weekday,587
+February 2019,31,Bus,Weekday,767
+February 2019,33,Bus,Weekday,831
+February 2019,35,Bus,Weekday,770
+February 2019,36,Bus,Weekday,838
+February 2019,37,Bus,Weekday,773
+February 2019,38,Bus,Weekday,835
+February 2019,38R,Bus,Weekday,706
+February 2019,39,Bus,Weekday,647
+February 2019,43,Bus,Weekday,969
+February 2019,44,Bus,Weekday,904
+February 2019,1,Bus,Saturday,684
+February 2019,12,Bus,Saturday,738
+February 2019,14,Bus,Saturday,724
+February 2019,15,Bus,Saturday,677
+February 2019,18,Bus,Saturday,679
+February 2019,19,Bus,Saturday,849
+February 2019,2,Bus,Saturday,594
+February 2019,22,Bus,Saturday,688
+February 2019,23,Bus,Saturday,734
+February 2019,24,Bus,Saturday,843
+February 2019,25,Bus,Saturday,551
+February 2019,27,Bus,Saturday,737
+February 2019,28,Bus,Saturday,680
+February 2019,CA,Cable Car,Saturday,557
+February 2019,PH,Cable Car,Saturday,591
+February 2019,PM,Cable Car,Saturday,546
+February 2019,F,Light Rail,Saturday,634
+February 2019,FBUS,Light Rail,Saturday,592
+February 2019,J,Light Rail,Saturday,635
+February 2019,K,Light Rail,Saturday,591
+February 2019,L,Light Rail,Saturday,684
+February 2019,M,Light Rail,Saturday,609
+February 2019,N,Light Rail,Saturday,634
+February 2019,T,Light Rail,Saturday,637
+February 2019,14R,Bus,Saturday,642
+February 2019,1X,Bus,Saturday,594
+February 2019,28R,Bus,Saturday,590
+February 2019,29,Bus,Saturday,830
+February 2019,30,Bus,Saturday,734
+February 2019,30X,Bus,Saturday,553
+February 2019,31,Bus,Saturday,680
+February 2019,33,Bus,Saturday,743
+February 2019,35,Bus,Saturday,676
+February 2019,36,Bus,Saturday,725
+February 2019,37,Bus,Saturday,688
+February 2019,38,Bus,Saturday,729
+February 2019,38R,Bus,Saturday,632
+February 2019,39,Bus,Saturday,593
+February 2019,43,Bus,Saturday,833
+February 2019,44,Bus,Saturday,786
+February 2019,1,Bus,Sunday,648
+February 2019,12,Bus,Sunday,682
+February 2019,14,Bus,Sunday,682
+February 2019,15,Bus,Sunday,646
+February 2019,18,Bus,Sunday,641
+February 2019,19,Bus,Sunday,771
+February 2019,2,Bus,Sunday,566
+February 2019,22,Bus,Sunday,644
+February 2019,23,Bus,Sunday,693
+February 2019,24,Bus,Sunday,774
+February 2019,25,Bus,Sunday,536
+February 2019,27,Bus,Sunday,687
+February 2019,28,Bus,Sunday,642
+February 2019,CA,Cable Car,Sunday,541
+February 2019,PH,Cable Car,Sunday,569
+February 2019,PM,Cable Car,Sunday,535
+February 2019,F,Light Rail,Sunday,607
+February 2019,FBUS,Light Rail,Sunday,574
+February 2019,J,Light Rail,Sunday,606
+February 2019,K,Light Rail,Sunday,568
+February 2019,L,Light Rail,Sunday,647
+February 2019,M,Light Rail,Sunday,589
+February 2019,N,Light Rail,Sunday,604
+February 2019,T,Light Rail,Sunday,606
+February 2019,14R,Bus,Sunday,604
+February 2019,1X,Bus,Sunday,571
+February 2019,28R,Bus,Sunday,568
+February 2019,29,Bus,Sunday,768
+February 2019,30,Bus,Sunday,691
+February 2019,30X,Bus,Sunday,536
+February 2019,31,Bus,Sunday,644
+February 2019,33,Bus,Sunday,681
+February 2019,35,Bus,Sunday,651
+February 2019,36,Bus,Sunday,686
+February 2019,37,Bus,Sunday,651
+February 2019,38,Bus,Sunday,683
+February 2019,38R,Bus,Sunday,607
+February 2019,39,Bus,Sunday,570
+February 2019,43,Bus,Sunday,778
+February 2019,44,Bus,Sunday,735

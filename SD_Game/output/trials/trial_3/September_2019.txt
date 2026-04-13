@@ -1,0 +1,121 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+September 2019,1,Bus,Sunday,674
+September 2019,12,Bus,Sunday,725
+September 2019,14,Bus,Sunday,716
+September 2019,15,Bus,Sunday,675
+September 2019,18,Bus,Sunday,675
+September 2019,19,Bus,Sunday,824
+September 2019,2,Bus,Sunday,584
+September 2019,22,Bus,Sunday,674
+September 2019,23,Bus,Sunday,726
+September 2019,24,Bus,Sunday,822
+September 2019,25,Bus,Sunday,547
+September 2019,27,Bus,Sunday,711
+September 2019,28,Bus,Sunday,675
+September 2019,CA,Cable Car,Sunday,554
+September 2019,PH,Cable Car,Sunday,581
+September 2019,PM,Cable Car,Sunday,544
+September 2019,F,Light Rail,Sunday,631
+September 2019,FBUS,Light Rail,Sunday,586
+September 2019,J,Light Rail,Sunday,628
+September 2019,K,Light Rail,Sunday,588
+September 2019,L,Light Rail,Sunday,673
+September 2019,M,Light Rail,Sunday,605
+September 2019,N,Light Rail,Sunday,626
+September 2019,T,Light Rail,Sunday,630
+September 2019,14R,Bus,Sunday,624
+September 2019,1X,Bus,Sunday,591
+September 2019,28R,Bus,Sunday,588
+September 2019,29,Bus,Sunday,809
+September 2019,30,Bus,Sunday,723
+September 2019,30X,Bus,Sunday,544
+September 2019,31,Bus,Sunday,680
+September 2019,33,Bus,Sunday,725
+September 2019,35,Bus,Sunday,677
+September 2019,36,Bus,Sunday,719
+September 2019,37,Bus,Sunday,662
+September 2019,38,Bus,Sunday,716
+September 2019,38R,Bus,Sunday,628
+September 2019,39,Bus,Sunday,583
+September 2019,43,Bus,Sunday,814
+September 2019,44,Bus,Sunday,768
+September 2019,1,Bus,Weekday,843
+September 2019,12,Bus,Weekday,921
+September 2019,14,Bus,Weekday,923
+September 2019,15,Bus,Weekday,842
+September 2019,18,Bus,Weekday,837
+September 2019,19,Bus,Weekday,"1,099"
+September 2019,2,Bus,Weekday,689
+September 2019,22,Bus,Weekday,843
+September 2019,23,Bus,Weekday,924
+September 2019,24,Bus,Weekday,"1,095"
+September 2019,25,Bus,Weekday,620
+September 2019,27,Bus,Weekday,924
+September 2019,28,Bus,Weekday,839
+September 2019,CA,Cable Car,Weekday,630
+September 2019,PH,Cable Car,Weekday,685
+September 2019,PM,Cable Car,Weekday,616
+September 2019,F,Light Rail,Weekday,764
+September 2019,FBUS,Light Rail,Weekday,689
+September 2019,J,Light Rail,Weekday,764
+September 2019,K,Light Rail,Weekday,697
+September 2019,L,Light Rail,Weekday,840
+September 2019,M,Light Rail,Weekday,724
+September 2019,N,Light Rail,Weekday,763
+September 2019,T,Light Rail,Weekday,761
+September 2019,14R,Bus,Weekday,761
+September 2019,1X,Bus,Weekday,687
+September 2019,28R,Bus,Weekday,692
+September 2019,29,Bus,Weekday,"1,093"
+September 2019,30,Bus,Weekday,919
+September 2019,30X,Bus,Weekday,618
+September 2019,31,Bus,Weekday,844
+September 2019,33,Bus,Weekday,930
+September 2019,35,Bus,Weekday,844
+September 2019,36,Bus,Weekday,922
+September 2019,37,Bus,Weekday,841
+September 2019,38,Bus,Weekday,920
+September 2019,38R,Bus,Weekday,767
+September 2019,39,Bus,Weekday,689
+September 2019,43,Bus,Weekday,"1,088"
+September 2019,44,Bus,Weekday,"1,004"
+September 2019,1,Bus,Saturday,710
+September 2019,12,Bus,Saturday,782
+September 2019,14,Bus,Saturday,784
+September 2019,15,Bus,Saturday,717
+September 2019,18,Bus,Saturday,710
+September 2019,19,Bus,Saturday,895
+September 2019,2,Bus,Saturday,616
+September 2019,22,Bus,Saturday,716
+September 2019,23,Bus,Saturday,778
+September 2019,24,Bus,Saturday,900
+September 2019,25,Bus,Saturday,569
+September 2019,27,Bus,Saturday,780
+September 2019,28,Bus,Saturday,722
+September 2019,CA,Cable Car,Saturday,570
+September 2019,PH,Cable Car,Saturday,612
+September 2019,PM,Cable Car,Saturday,564
+September 2019,F,Light Rail,Saturday,672
+September 2019,FBUS,Light Rail,Saturday,615
+September 2019,J,Light Rail,Saturday,673
+September 2019,K,Light Rail,Saturday,616
+September 2019,L,Light Rail,Saturday,724
+September 2019,M,Light Rail,Saturday,640
+September 2019,N,Light Rail,Saturday,673
+September 2019,T,Light Rail,Saturday,668
+September 2019,14R,Bus,Saturday,663
+September 2019,1X,Bus,Saturday,614
+September 2019,28R,Bus,Saturday,612
+September 2019,29,Bus,Saturday,877
+September 2019,30,Bus,Saturday,775
+September 2019,30X,Bus,Saturday,565
+September 2019,31,Bus,Saturday,721
+September 2019,33,Bus,Saturday,787
+September 2019,35,Bus,Saturday,724
+September 2019,36,Bus,Saturday,778
+September 2019,37,Bus,Saturday,719
+September 2019,38,Bus,Saturday,782
+September 2019,38R,Bus,Saturday,669
+September 2019,39,Bus,Saturday,622
+September 2019,43,Bus,Saturday,890
+September 2019,44,Bus,Saturday,815

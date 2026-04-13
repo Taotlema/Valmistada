@@ -1,85 +1,80 @@
-"""
-Filename: dashboard_widget.py
-Author: Ayemhenre Isikhuemhen
-Description: Small stat-card widget displaying a title and a live value —
-             used on the Start screen dashboard panel.
-Last Updated: March, 2026
-"""
+# dashboard_widget: Retro stat cards for the start screen sidebar.
 
-# Libraries
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
-from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel, QGridLayout
+from PyQt6.QtCore    import Qt
+from PyQt6.QtGui     import QFont
 
-# Modules
 from ui.base.base_widget import THEME
 
 
-# StatCard: Single metric display with a muted title and prominent value
+# StatCard: Single metric tile with a green top accent, large value, and bold label.
 class StatCard(QWidget):
 
-    # __init__ (title, value, parent)
-    def __init__(self, title: str, value: str = "—", parent=None):
+    def __init__(self, title: str, value: str = "0", parent=None):
         super().__init__(parent)
         self.setStyleSheet(f"""
             background-color: {THEME['surface']};
             border: 1px solid {THEME['border']};
-            border-radius: 8px;
+            border-top: 2px solid {THEME['accent']};
         """)
-        self.setMinimumWidth(140)
+        self.setMinimumWidth(100)
+        self.setMinimumHeight(80)
 
         vbox = QVBoxLayout(self)
-        vbox.setContentsMargins(14, 12, 14, 12)
-        vbox.setSpacing(4)
+        vbox.setContentsMargins(14, 14, 14, 10)
+        vbox.setSpacing(8)
 
-        self._title = QLabel(title)
+        # Large green number displayed prominently
+        self._value = QLabel(value)
+        self._value.setFont(QFont("Courier New", 26, QFont.Weight.Bold))
+        self._value.setStyleSheet(f"color: {THEME['accent']}; background: transparent;")
+        self._value.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignBottom)
+
+        # Bold white category label below the number
+        self._title = QLabel(title.upper())
+        self._title.setFont(QFont("Courier New", 10, QFont.Weight.Bold))
         self._title.setStyleSheet(
-            f"color: {THEME['muted']}; font-size: 11px; font-weight: 600;"
+            "color: #ffffff; background: transparent; letter-spacing: 2px;"
         )
         self._title.setAlignment(Qt.AlignmentFlag.AlignLeft)
 
-        self._value = QLabel(value)
-        self._value.setStyleSheet(
-            f"color: {THEME['accent']}; font-size: 22px; font-weight: 700;"
-        )
-        self._value.setAlignment(Qt.AlignmentFlag.AlignLeft)
-
-        vbox.addWidget(self._title)
         vbox.addWidget(self._value)
+        vbox.addSpacing(4)
+        vbox.addWidget(self._title)
 
-    # set_value (text): Update the displayed metric
+    # set_value: Update the displayed metric text.
     def set_value(self, text: str):
         self._value.setText(text)
 
 
-# DashboardWidget: Row of StatCards showing system-level batch status
+# DashboardWidget: 2x2 grid of StatCards showing live session statistics.
 class DashboardWidget(QWidget):
 
-    # __init__ (parent)
     def __init__(self, parent=None):
         super().__init__(parent)
-        root = QVBoxLayout(self)
-        root.setContentsMargins(0, 0, 0, 0)
-        root.setSpacing(10)
+        self.setStyleSheet("background: transparent;")
 
-        row_widget = QWidget()
-        row_widget.setStyleSheet("background: transparent;")
-        row = QHBoxLayout(row_widget)
-        row.setContentsMargins(0, 0, 0, 0)
-        row.setSpacing(10)
+        wrapper = QVBoxLayout(self)
+        wrapper.setContentsMargins(12, 12, 12, 12)
+        wrapper.setSpacing(0)
 
-        self.card_cities   = StatCard("Cities Loaded", "0")
-        self.card_routes   = StatCard("Routes",        "—")
-        self.card_trials   = StatCard("Trials Run",    "0")
-        self.card_modifier = StatCard("Modifier Data", "—")
+        grid = QGridLayout()
+        grid.setContentsMargins(0, 0, 0, 0)
+        grid.setSpacing(1)
 
-        row.addWidget(self.card_cities)
-        row.addWidget(self.card_routes)
-        row.addWidget(self.card_trials)
-        row.addWidget(self.card_modifier)
-        row.addStretch()
-        root.addWidget(row_widget)
+        self.card_cities   = StatCard("CITIES",   "01")
+        self.card_routes   = StatCard("ROUTES",   "68")
+        self.card_trials   = StatCard("TRIALS",   "00")
+        self.card_modifier = StatCard("MODIFIER", "OK")
 
-    # refresh (app_controller): Pull live counts from the app state
+        grid.addWidget(self.card_cities,   0, 0)
+        grid.addWidget(self.card_routes,   0, 1)
+        grid.addWidget(self.card_trials,   1, 0)
+        grid.addWidget(self.card_modifier, 1, 1)
+
+        wrapper.addLayout(grid)
+
+    # refresh: Pull live counts from AppController and update all four cards.
     def refresh(self, app_controller):
         n_cities = len(app_controller.feeds)
         n_routes = sum(len(f.routes) for f in app_controller.feeds.values())
@@ -87,6 +82,6 @@ class DashboardWidget(QWidget):
         mod_ok   = app_controller.is_modifier_ready()
 
         self.card_cities.set_value(str(n_cities))
-        self.card_routes.set_value(str(n_routes) if n_routes else "—")
+        self.card_routes.set_value(str(n_routes) if n_routes else "-")
         self.card_trials.set_value(str(n_trials))
-        self.card_modifier.set_value("Ready" if mod_ok else "Missing")
+        self.card_modifier.set_value("OK" if mod_ok else "NO")

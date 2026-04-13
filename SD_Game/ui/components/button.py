@@ -1,90 +1,92 @@
-"""
-Filename: button.py
-Author: Ayemhenre Isikhuemhen
-Description: Reusable styled push-button with primary, secondary, and danger variants.
-Last Updated: March, 2026
-"""
+# button: Retro terminal push-buttons; dark border at rest, green fill on hover.
 
-# Libraries
 from PyQt6.QtWidgets import QPushButton
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore    import Qt
 
-# Modules
 from ui.base.base_widget import THEME
 
+_MONO = "'Courier New', monospace"
 
-# AppButton: Themed push-button base — subclasses pick a visual variant
+# Shared base stylesheet; colour values filled in by each subclass
+_BASE = """
+    QPushButton {{
+        border: 1px solid #444;
+        background-color: {bg};
+        color: #cccccc;
+        font-family: 'Courier New', monospace;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 5px 14px;
+        border-radius: 0px;
+    }}
+    QPushButton:hover   {{ background-color: {hover}; color: {htxt}; border-color: {hover}; }}
+    QPushButton:pressed {{ background-color: {pressed}; color: {htxt}; }}
+    QPushButton:disabled {{ border-color: #222; color: #333; background-color: {bg}; }}
+"""
+
+
+# AppButton: Base push-button; dark border at rest, phosphor green on hover.
 class AppButton(QPushButton):
 
-    _BASE = """
-        QPushButton {{
-            border-radius: 6px;
-            padding: 8px 18px;
-            font-size: 13px;
-            font-weight: 600;
-            border: none;
-            color: {text};
-            background-color: {bg};
-        }}
-        QPushButton:hover   {{ background-color: {hover}; }}
-        QPushButton:pressed {{ background-color: {pressed}; }}
-        QPushButton:disabled {{ background-color: {disabled}; color: #607D8B; }}
-    """
-
-    # __init__ (label, parent)
     def __init__(self, label: str, parent=None):
         super().__init__(label, parent)
         self.setCursor(Qt.CursorShape.PointingHandCursor)
         self._apply()
 
-    # _apply: Override in subclasses to choose colour set
+    # _apply: Override in subclasses to choose a different colour set.
     def _apply(self):
-        self.setStyleSheet(self._BASE.format(
-            text=THEME["text"], bg=THEME["primary"],
-            hover="#1976D2", pressed="#0D47A1", disabled="#37474F"
+        self.setStyleSheet(_BASE.format(
+            bg=THEME["bg"],
+            hover=THEME["primary"], htxt="#000000",
+            pressed="#00cc66",
         ))
 
 
-# PrimaryButton: Main call-to-action — blue fill
+# PrimaryButton: Same styling as AppButton; used for main call-to-action buttons.
 class PrimaryButton(AppButton):
     def _apply(self):
-        self.setStyleSheet(self._BASE.format(
-            text="#FFFFFF", bg=THEME["primary"],
-            hover="#1976D2", pressed="#0D47A1", disabled="#37474F"
+        self.setStyleSheet(_BASE.format(
+            bg=THEME["bg"],
+            hover=THEME["primary"], htxt="#000000",
+            pressed="#00cc66",
         ))
 
 
-# SecondaryButton: Subdued bordered style for navigation actions
+# SecondaryButton: Same as primary; used for navigation and back buttons.
 class SecondaryButton(AppButton):
+    def _apply(self):
+        self.setStyleSheet(_BASE.format(
+            bg=THEME["bg"],
+            hover=THEME["primary"], htxt="#000000",
+            pressed="#00cc66",
+        ))
+
+
+# DangerButton: Red text at rest, red fill on hover; used for destructive actions.
+class DangerButton(AppButton):
     def _apply(self):
         self.setStyleSheet(f"""
             QPushButton {{
-                border-radius: 6px;
-                padding: 8px 18px;
-                font-size: 13px;
-                font-weight: 600;
-                border: 1px solid {THEME['border']};
-                color: {THEME['accent']};
-                background-color: transparent;
+                border: 1px solid #555;
+                background-color: {THEME['bg']};
+                color: #ff4444;
+                font-family: {_MONO};
+                font-size: 11px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                padding: 5px 14px;
+                border-radius: 0px;
             }}
-            QPushButton:hover   {{ background-color: {THEME['border']}; }}
-            QPushButton:pressed {{ background-color: #0A2744; }}
-            QPushButton:disabled {{ color: #607D8B; border-color: #37474F; }}
+            QPushButton:hover   {{ background-color: #ff4444; color: #fff; border-color: #ff4444; }}
+            QPushButton:pressed {{ background-color: #cc0000; color: #fff; border-color: #cc0000; }}
+            QPushButton:disabled {{ border-color: #222; color: #333; }}
         """)
 
 
-# DangerButton: Red tone for destructive / abort actions
-class DangerButton(AppButton):
-    def _apply(self):
-        self.setStyleSheet(self._BASE.format(
-            text="#FFFFFF", bg=THEME["danger"],
-            hover="#E53935", pressed="#B71C1C", disabled="#37474F"
-        ))
-
-
-# IconButton: Compact square button for toolbar-style icon actions
+# IconButton: Compact square button for the speed selector and toolbars.
 class IconButton(AppButton):
-    # __init__ (label, size: pixel side length)
+
     def __init__(self, label: str, size: int = 36, parent=None):
         super().__init__(label, parent)
         self.setFixedSize(size, size)
@@ -92,13 +94,18 @@ class IconButton(AppButton):
     def _apply(self):
         self.setStyleSheet(f"""
             QPushButton {{
-                border-radius: 4px;
-                font-size: 12px;
-                font-weight: 700;
-                border: 1px solid {THEME['border']};
-                color: {THEME['text']};
-                background-color: {THEME['surface']};
+                border: 1px solid #333;
+                background-color: {THEME['bg']};
+                color: #888;
+                font-family: {_MONO};
+                font-size: 10px;
+                font-weight: bold;
+                border-radius: 0px;
             }}
-            QPushButton:hover   {{ background-color: {THEME['border']}; }}
-            QPushButton:pressed {{ background-color: #0A2744; }}
+            QPushButton:hover {{
+                border-color: {THEME['primary']};
+                color: {THEME['primary']};
+                background-color: {THEME['bg']};
+            }}
+            QPushButton:pressed {{ background-color: {THEME['surface']}; }}
         """)

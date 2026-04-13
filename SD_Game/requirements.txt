@@ -2,4 +2,6 @@ PyQt6>=6.6.0
 pandas>=2.2.0
 numpy>=1.26.0
 PyYAML>=6.0.1
-pyqtgraph>=0.13.3
+scipy>=1.12.0
+Pillow>=10.2.0
+pyinstaller>=6.4.0

@@ -1,26 +1,19 @@
-"""
-Filename: base_entity.py
-Author: Ayemhenre Isikhuemhen
-Description: Abstract base class all game-world entities inherit from.
-Last Updated: March, 2026
-"""
+# base_entity: Abstract base class all simulation entities inherit from.
 
-# Libraries
 from abc import ABC, abstractmethod
 
 
-# BaseEntity: Provides a unique ID and tick update contract for all sim objects
+# BaseEntity: Provides a unique ID and an active flag for every entity.
 class BaseEntity(ABC):
 
     _id_counter: int = 0
 
-    # __init__ (entity_id: optional custom id)
     def __init__(self, entity_id: str = None):
         BaseEntity._id_counter += 1
         self.entity_id: str = entity_id or f"entity_{BaseEntity._id_counter}"
-        self.active: bool   = True
+        self.active:    bool = True
 
-    # update (tick, dt): Called once per simulation tick — must be overridden
+    # update: Called once per simulation tick; must be implemented by every subclass.
     @abstractmethod
     def update(self, tick: int, dt: float):
         pass

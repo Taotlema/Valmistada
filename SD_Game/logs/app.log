@@ -1,0 +1,153 @@
+2026-04-12 22:32:22,948  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 22:32:23,022  WARNING   data.loaders.modifier_loader - Modifier directory not found: Data Exploration/Modifier Data\San Francisco
+2026-04-12 22:32:23,175  INFO      data.loaders.output_loader - Found 0 trial(s).
+2026-04-12 22:32:23,842  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 22:32:26,352  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 22:32:30,919  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 22:46:20,760  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 22:46:20,833  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 22:46:20,835  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 22:46:21,322  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 22:46:21,330  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 22:46:31,331  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 22:46:31,416  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 22:46:31,417  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 22:46:32,071  INFO      data.loaders.output_loader - Found 0 trial(s).
+2026-04-12 22:46:32,246  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 22:46:34,755  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 22:46:36,053  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 22:46:39,264  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 22:46:44,086  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 22:46:47,105  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 1
+2026-04-12 22:46:47,137  INFO      game_world.map.graph_builder - Graph: 40 routes, 243 stations, 40 with shape data
+2026-04-12 22:46:47,139  INFO      game_world.core.simulation_engine - World built: 40 routes, 40 vehicles
+2026-04-12 22:53:37,374  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 22:53:37,434  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 22:53:37,436  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 22:53:37,938  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 22:53:37,947  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 22:53:47,568  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 22:53:47,647  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 22:53:47,648  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 22:53:48,018  INFO      data.loaders.output_loader - Found 0 trial(s).
+2026-04-12 22:53:48,188  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 22:53:50,686  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 22:53:52,229  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 22:54:45,389  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 22:54:45,447  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 22:54:45,449  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 22:54:45,934  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 22:54:45,942  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 22:54:55,457  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 22:54:55,533  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 22:54:55,534  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 22:54:55,862  INFO      data.loaders.output_loader - Found 0 trial(s).
+2026-04-12 22:54:56,032  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 22:54:58,530  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 22:55:00,285  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 22:55:08,679  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 1
+2026-04-12 22:55:08,710  INFO      game_world.map.graph_builder - Graph: 40 routes, 243 stations, 40 with shape data
+2026-04-12 22:55:08,712  INFO      game_world.core.simulation_engine - World built: 40 routes, 40 vehicles
+2026-04-12 22:55:29,823  INFO      game_world.core.simulation_engine - Month transition to February 2019
+2026-04-12 22:55:42,567  INFO      game_world.core.simulation_engine - Month transition to March 2019
+2026-04-12 22:55:56,904  INFO      game_world.core.simulation_engine - Month transition to April 2019
+2026-04-12 22:56:10,754  INFO      game_world.core.simulation_engine - Month transition to May 2019
+2026-04-12 22:56:25,075  INFO      game_world.core.simulation_engine - Month transition to June 2019
+2026-04-12 22:56:38,630  INFO      game_world.core.simulation_engine - Month transition to July 2019
+2026-04-12 22:56:54,597  INFO      game_world.core.simulation_engine - Month transition to August 2019
+2026-04-12 22:57:08,858  INFO      game_world.core.simulation_engine - Month transition to September 2019
+2026-04-12 22:57:23,214  INFO      game_world.core.simulation_engine - Month transition to October 2019
+2026-04-12 22:57:37,874  INFO      game_world.core.simulation_engine - Month transition to November 2019
+2026-04-12 22:57:51,990  INFO      game_world.core.simulation_engine - Month transition to December 2019
+2026-04-12 22:58:05,931  INFO      game_world.core.simulation_engine - Month transition to January 2020
+2026-04-12 22:58:05,947  INFO      data.storage.export_manager - Trial 1 exported - 13 files to SD_Game/output/trials\trial_1
+2026-04-12 22:58:05,950  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 22:58:05,968  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 22:58:05,988  INFO      game_world.core.simulation_engine - Year complete.
+2026-04-12 23:03:02,187  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:03:22,570  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:03:22,626  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:03:22,628  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:03:23,099  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:03:23,108  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:03:32,448  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 23:03:32,526  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 23:03:32,526  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 23:03:32,879  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 23:03:33,086  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 23:03:35,598  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:03:39,350  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 23:03:47,991  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 2
+2026-04-12 23:03:48,028  INFO      game_world.map.graph_builder - Graph: 40 routes, 243 stations, 40 with shape data
+2026-04-12 23:03:48,030  INFO      game_world.core.simulation_engine - World built: 40 routes, 40 vehicles
+2026-04-12 23:05:50,417  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:05:50,473  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:05:50,475  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:05:50,960  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:05:50,968  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:06:00,334  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 23:06:00,415  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 23:06:00,415  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 23:06:00,774  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 23:06:00,989  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 23:06:03,488  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:06:05,850  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 23:06:56,185  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:06:56,241  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:06:56,244  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:06:56,717  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:06:56,725  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:07:06,134  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 23:07:06,213  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 23:07:06,214  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 23:07:06,573  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 23:07:06,789  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 23:07:09,305  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:07:18,662  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 23:08:30,885  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:08:30,941  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:08:30,943  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:08:31,442  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:08:31,450  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:08:40,842  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 23:08:40,920  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 23:08:40,921  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 23:08:41,275  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 23:08:41,485  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 23:08:43,987  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:08:46,204  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 23:09:26,065  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:09:26,123  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:09:26,126  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:09:26,613  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:09:26,621  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:09:35,952  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 23:09:36,032  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 23:09:36,033  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 23:09:36,387  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 23:09:36,598  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 23:09:39,088  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:12:00,968  INFO      app_controller.screen_manager - Navigated to input
+2026-04-12 23:12:07,306  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:12:08,264  INFO      app_controller.screen_manager - Navigated to dictionary
+2026-04-12 23:13:28,588  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:13:28,651  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:13:28,653  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:13:29,164  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:13:29,172  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:13:37,867  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-12 23:13:37,928  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-12 23:13:37,931  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-12 23:13:38,416  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-12 23:13:38,425  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-12 23:13:47,536  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-12 23:13:47,614  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-12 23:13:47,614  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-12 23:13:47,970  INFO      data.loaders.output_loader - Found 1 trial(s).
+2026-04-12 23:13:48,178  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-12 23:13:50,688  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:13:54,573  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-12 23:13:59,216  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:14:04,623  INFO      app_controller.screen_manager - Navigated to output
+2026-04-12 23:14:09,482  INFO      app_controller.screen_manager - Navigated to start
+2026-04-12 23:14:10,419  INFO      app_controller.screen_manager - Navigated to dictionary

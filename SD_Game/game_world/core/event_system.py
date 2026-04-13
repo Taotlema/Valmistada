@@ -1,11 +1,5 @@
-"""
-Filename: event_system.py
-Author: Ayemhenre Isikhuemhen
-Description:
-Last Updated: March, 2026
-"""
+# event_system: Deferred event queue for scheduling callbacks at a future simulation tick.
 
-# Libraries
 from collections import defaultdict
 from typing import Callable
 import logging
@@ -13,27 +7,27 @@ import logging
 log = logging.getLogger(__name__)
 
 
-# SimEvent: One deferred action with a target tick and optional payload
+# SimEvent: One scheduled callback with its target tick and keyword arguments.
 class SimEvent:
 
-    # __init__ (tick, callback, kwargs)
     def __init__(self, tick: int, callback: Callable, **kwargs):
         self.tick     = tick
         self.callback = callback
         self.kwargs   = kwargs
 
 
-# EventSystem: Holds pending SimEvents and fires them when the clock reaches them
+# EventSystem: Fires queued callbacks at the right tick during the sim loop.
 class EventSystem:
 
     def __init__(self):
+        # Maps target tick to list of pending SimEvents
         self._queue: dict = defaultdict(list)
 
-    # schedule (at_tick, callback, **kwargs): Enqueue a future action
+    # schedule: Enqueue a callback to fire at or after a given tick.
     def schedule(self, at_tick: int, callback: Callable, **kwargs):
         self._queue[at_tick].append(SimEvent(at_tick, callback, **kwargs))
 
-    # process (current_tick): Fire and discard all events due at or before this tick
+    # process: Fire and remove all events due at or before current_tick.
     def process(self, current_tick: int):
         due = [t for t in self._queue if t <= current_tick]
         for t in due:
@@ -44,6 +38,6 @@ class EventSystem:
                     log.error(f"SimEvent error at tick {t}: {e}")
             del self._queue[t]
 
-    # clear: Wipe all pending events (called on simulation reset)
+    # clear: Discard all pending events; called on simulation abort.
     def clear(self):
         self._queue.clear()

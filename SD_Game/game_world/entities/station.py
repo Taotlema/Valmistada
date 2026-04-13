@@ -1,42 +1,32 @@
-"""
-Filename: station.py
-Author: Ayemhenre Isikhuemhen
-Description: Station entity — one GTFS stop on the map with a waiting passenger count.
-Last Updated: March, 2026
-"""
+# station: One GTFS stop on the map with a waiting passenger pool.
 
-# Libraries
 import random
-
-# Modules
 from game_world.entities.base_entity import BaseEntity
 
 
-# Station: One boarding/alighting node derived from a GTFS stop
+# Station: Spawns arriving passengers each tick and lets vehicles board them.
 class Station(BaseEntity):
 
-    # __init__ (stop_id, name, lat, lon, base_demand)
     def __init__(self, stop_id: str, name: str, lat: float, lon: float,
                  base_demand: float = 100.0):
         super().__init__(entity_id=stop_id)
         self.name        = name
         self.lat         = lat
         self.lon         = lon
-        self.base_demand = base_demand
+        self.base_demand = base_demand   # daily passenger arrivals before modifiers
         self.waiting     = 0
-        self.x_px: float = 0.0
+        self.x_px: float = 0.0           # pixel coords set by RendererAdapter
         self.y_px: float = 0.0
 
-    # update (tick, dt): Spawn arriving passengers each tick based on demand
+    # update: Spread daily demand evenly across 288 ticks with small Gaussian noise.
     def update(self, tick: int, dt: float):
         if not self.active:
             return
-        arrivals_per_tick = self.base_demand / 288.0
-        noise    = 1.0 + random.gauss(0, 0.1)
-        new_arrivals = max(0, int(arrivals_per_tick * noise))
-        self.waiting = min(self.waiting + new_arrivals, 500)
+        arrivals = max(0, int((self.base_demand / 288.0) * (1.0 + random.gauss(0, 0.1))))
+        # Cap waiting passengers to avoid unbounded growth during pauses
+        self.waiting = min(self.waiting + arrivals, 500)
 
-    # board (capacity): Transfer passengers onto a vehicle; return count boarded
+    # board: Transfer up to capacity passengers onto a vehicle; return count boarded.
     def board(self, capacity: int) -> int:
         boarded      = min(self.waiting, capacity)
         self.waiting -= boarded

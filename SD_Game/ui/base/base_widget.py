@@ -1,39 +1,36 @@
-"""
-Filename: base_widget.py
-Author: Ayemhenre Isikhuemhen
-Description: Base class for all reusable UI widgets — defines the shared colour theme.
-Last Updated: March, 2026
-"""
+# base_widget: Base widget class and shared retro-terminal colour theme.
 
-# Libraries
 from PyQt6.QtWidgets import QWidget
 
-
-# THEME: Central colour palette used across all widgets and screens
+# THEME: Phosphor-green terminal palette used across every screen and component.
 THEME = {
-    "bg":      "#1A1A2E",
-    "surface": "#16213E",
-    "primary": "#1565C0",
-    "accent":  "#42A5F5",
-    "text":    "#E0E0E0",
-    "muted":   "#78909C",
-    "success": "#66BB6A",
-    "danger":  "#EF5350",
-    "border":  "#0F3460",
+    "bg":        "#0a0a0a",
+    "surface":   "#111111",
+    "surface2":  "#161616",
+    "primary":   "#00ff88",
+    "accent":    "#00ff88",
+    "text":      "#cccccc",
+    "muted":     "#555555",
+    "success":   "#00ff88",
+    "danger":    "#ff4444",
+    "warning":   "#ffaa00",
+    "border":    "#2a2a2a",
+    "border_hi": "#00ff88",
+    "font":      "'Courier New', 'Courier', monospace",
 }
 
 
-# BaseWidget: All custom widgets inherit from here for consistent theming
+# BaseWidget: Root QWidget subclass that exposes the THEME dict to components.
 class BaseWidget(QWidget):
 
-    # __init__ (parent)
     def __init__(self, parent: QWidget = None):
         super().__init__(parent)
         self.theme = THEME
         self.apply_style()
 
-    # apply_style: Override in subclasses for widget-specific stylesheets
+    # apply_style: Override in subclasses to apply component-specific stylesheets.
     def apply_style(self):
         self.setStyleSheet(
             f"background-color: {THEME['surface']}; color: {THEME['text']};"
+            f"font-family: {THEME['font']};"
         )

@@ -1,22 +1,13 @@
-# Application Settings
 app:
-  title: "Valmistada"
-  version: "1.0.0"
-  window_width: 1280
-  window_height: 800
+  title:              "Valmistada"
+  version:            "1.0.0"
+  window_width:       1280
+  window_height:      800
   loading_duration_ms: 2500
 
 paths:
-  gtfs_data: "Data Exploration/GTFS Data"
+  gtfs_data:     "Data Exploration/GTFS Data"
   modifier_data: "Data Exploration/Modifier Data"
-  output: "SD_Game/output/trials"
-  logs: "SD_Game/logs/app.log"
-  assets: "SD_Game/assets"
-
-ui:
-  theme: "dark"
-  primary_color: "#1565C0"
-  accent_color: "#42A5F5"
-  bg_color: "#1A1A2E"
-  surface_color: "#16213E"
-  text_color: "#E0E0E0"
+  output:        "SD_Game/output/trials"
+  assets:        "SD_Game/assets"
+  logs:          "SD_Game/logs/app.log"

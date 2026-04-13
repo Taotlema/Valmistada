@@ -1,41 +1,39 @@
-"""
-Filename: layout_manager.py
-Author: Ayemhenre Isikhuemhen
-Description: Manages screen layout and navigation for the application.
-Last Updated: March, 2026
-"""
+# layout_manager: Factory helpers for consistent layout construction across all screens.
 
-# Libraries
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QSizePolicy
 
 
-# LayoutManager: Factory helpers for consistent layout construction
+# LayoutManager: Static helpers to build consistently margined layouts.
 class LayoutManager:
 
-    # make_vbox (parent, margins, spacing): Vertical box layout with app defaults
+    # make_vbox: Vertical box layout with standard app margins.
     @staticmethod
-    def make_vbox(parent: QWidget = None, margins: tuple = (16, 16, 16, 16),
+    def make_vbox(parent: QWidget = None,
+                  margins: tuple = (16, 16, 16, 16),
                   spacing: int = 10) -> QVBoxLayout:
         layout = QVBoxLayout(parent)
         layout.setContentsMargins(*margins)
         layout.setSpacing(spacing)
         return layout
 
-    # make_hbox (parent, margins, spacing): Horizontal box layout
+    # make_hbox: Horizontal box layout with zero margins by default.
     @staticmethod
-    def make_hbox(parent: QWidget = None, margins: tuple = (0, 0, 0, 0),
+    def make_hbox(parent: QWidget = None,
+                  margins: tuple = (0, 0, 0, 0),
                   spacing: int = 8) -> QHBoxLayout:
         layout = QHBoxLayout(parent)
         layout.setContentsMargins(*margins)
         layout.setSpacing(spacing)
         return layout
 
-    # expand (widget): Set widget to expand in both directions
+    # expand: Allow a widget to grow in both directions.
     @staticmethod
     def expand(widget: QWidget):
-        widget.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        widget.setSizePolicy(
+            QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding
+        )
 
-    # fixed_height (widget, h): Pin widget to an exact height
+    # fixed_height: Pin a widget to an exact pixel height.
     @staticmethod
     def fixed_height(widget: QWidget, h: int):
         widget.setFixedHeight(h)

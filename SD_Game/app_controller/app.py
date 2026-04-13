@@ -1,27 +1,11 @@
-"""
-Filename: app.py
-Author: Ayemhenre Isikhuemhen
-Description:
-Last Updated: March, 2026
-"""
+# app: Central controller that wires loaders, screens, and event bus into one runtime object.
 
-"""
-Filename: app.py
-Author: Ayemhenre Isikhuemhen
-Description: Central application controller — wires loaders, screens, the simulation
-             engine, and the event bus together into one cohesive runtime.
-Last Updated: March, 2026
-"""
-
-# Libraries
 import os
-import yaml
 import logging
 
 from PyQt6.QtWidgets import QMainWindow
 from PyQt6.QtCore import QTimer
 
-# Modules
 from app_controller.event_bus import EventBus, Events
 from app_controller.screen_manager import ScreenManager
 
@@ -35,46 +19,45 @@ from data.storage.file_manager import FileManager
 log = logging.getLogger(__name__)
 
 
-# AppController: Top-level orchestrator; owns all shared state
+# AppController: Top-level QMainWindow that owns all shared application state.
 class AppController(QMainWindow):
 
-    # __init__ (settings: parsed settings.yaml dict)
     def __init__(self, settings: dict):
         super().__init__()
         self.settings = settings
         self.bus = EventBus()
 
-        # Paths resolved relative to the project root
-        self.gtfs_root    = settings["paths"]["gtfs_data"]
-        self.modifier_root= settings["paths"]["modifier_data"]
-        self.output_root  = settings["paths"]["output"]
-        self.assets_root  = settings["paths"]["assets"]
+        # Resolve data paths from settings.yaml
+        self.gtfs_root     = settings["paths"]["gtfs_data"]
+        self.modifier_root = settings["paths"]["modifier_data"]
+        self.output_root   = settings["paths"]["output"]
+        self.assets_root   = settings["paths"]["assets"]
 
         FileManager.ensure_dir(self.output_root)
 
-        # Loaded data references — populated lazily as user selects cities
-        self.feeds: dict       = {}      # city_label → GTFSFeed
-        self.processors: dict  = {}      # city_label → GTFSProcessor
-        self.modifier           = ModifierLoader(
+        self.feeds:      dict = {}
+        self.processors: dict = {}
+
+        # Load modifier data at startup so it is ready when the sim runs
+        self.modifier = ModifierLoader(
             os.path.join(self.modifier_root, "San Francisco")
         )
         self.modifier.load()
 
-        # Active simulation engine reference (set when game world screen starts)
         self.sim_engine = None
 
         self._build_ui()
         self._connect_events()
         self._start_loading()
 
-    # _build_ui: Instantiate all screens and register them with the manager
+    # _build_ui: Instantiate all six screens and register them with ScreenManager.
     def _build_ui(self):
-        from ui.screens.loading_screen     import LoadingScreen
-        from ui.screens.start_screen       import StartScreen
-        from ui.screens.input_screen       import InputScreen
-        from ui.screens.output_screen      import OutputScreen
-        from ui.screens.dictionary_screen  import DictionaryScreen
-        from ui.screens.game_world_screen  import GameWorldScreen
+        from ui.screens.loading_screen    import LoadingScreen
+        from ui.screens.start_screen      import StartScreen
+        from ui.screens.input_screen      import InputScreen
+        from ui.screens.output_screen     import OutputScreen
+        from ui.screens.dictionary_screen import DictionaryScreen
+        from ui.screens.game_world_screen import GameWorldScreen
 
         self.screen_manager = ScreenManager(self.bus)
 
@@ -98,23 +81,23 @@ class AppController(QMainWindow):
         self.setWindowTitle(cfg["title"])
         self.resize(cfg["window_width"], cfg["window_height"])
 
-    # _connect_events: Wire bus events to controller-level handlers
+    # _connect_events: Wire bus events to controller-level handlers.
     def _connect_events(self):
         self.bus.subscribe(Events.SIM_COMPLETED, self._on_sim_completed)
         self.bus.subscribe(Events.SIM_ABORTED,   self._on_sim_aborted)
 
-    # _start_loading: Show loading screen then auto-advance to start screen
+    # _start_loading: Show the loading splash then advance to start after a delay.
     def _start_loading(self):
         self.screen_manager.navigate(ScreenManager.LOADING)
         duration = self.settings["app"].get("loading_duration_ms", 2500)
         QTimer.singleShot(duration, self._finish_loading)
 
-    # _finish_loading: Transition from loading to start screen
+    # _finish_loading: Stop the loading animation and switch to the start screen.
     def _finish_loading(self):
         self.loading_screen.stop_animation()
         self.screen_manager.navigate(ScreenManager.START)
 
-    # load_city_feed (city_label, gtfs_dir): Load and index a GTFS feed on demand
+    # load_city_feed: Validate, parse, and index a GTFS feed on demand.
     def load_city_feed(self, city_label: str, gtfs_dir: str):
         valid, missing = DataValidator.validate_gtfs_dir(gtfs_dir)
         if not valid:
@@ -126,28 +109,27 @@ class AppController(QMainWindow):
         self.feeds[city_label]      = feed
         self.processors[city_label] = proc
         self.bus.publish(Events.GTFS_LOADED, city_label)
-        log.info(f"City feed ready: {city_label}")
+        log.info(f"Feed ready: {city_label}")
 
-    # is_batch_ready: True if at least one city feed is loaded
+    # is_batch_ready: True if at least one city feed has been loaded.
     def is_batch_ready(self) -> bool:
         return len(self.feeds) > 0
 
-    # is_modifier_ready: True if ridership baseline data was found
+    # is_modifier_ready: True if historical ridership data was found and loaded.
     def is_modifier_ready(self) -> bool:
         return not self.modifier.ridership_df.empty
 
-    # next_trial_number: Delegate to FileManager
+    # next_trial_number: Return the next unused trial integer from the output folder.
     def next_trial_number(self) -> int:
         return FileManager.next_trial_number(self.output_root)
 
-    # _on_sim_completed (trial_result): Save output and refresh output screen
+    # _on_sim_completed: Export results to disk and notify the output screen.
     def _on_sim_completed(self, trial_result):
         from data.storage.export_manager import ExportManager
-        em = ExportManager(self.output_root)
-        em.export(trial_result)
+        ExportManager(self.output_root).export(trial_result)
         self.output_screen.refresh()
         self.bus.publish(Events.TRIAL_SAVED, trial_result.trial_number)
 
-    # _on_sim_aborted: Nothing to save — log and move on
+    # _on_sim_aborted: Nothing to save when the user cancels early.
     def _on_sim_aborted(self):
-        log.info("Simulation aborted — no data saved.")
+        log.info("Simulation aborted - no data saved.")

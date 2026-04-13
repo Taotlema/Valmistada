@@ -1,47 +1,37 @@
-"""
-Filename: output_loader.py
-Author: Ayemhenre Isikhuemhen
-Description:
-Last Updated: March, 2026
-"""
-"""
-Filename: output_loader.py
-Author: Ayemhenre Isikhuemhen
-Description: Scans the output/trials folder and returns available trial metadata.
-Last Updated: March, 2026
-"""
+# output_loader: Scans the output/trials folder and returns metadata for each saved trial.
 
-# Libraries
 import os
 import logging
 
 log = logging.getLogger(__name__)
 
 
-# TrialMeta: Lightweight descriptor for a saved trial folder
+# TrialMeta: Lightweight descriptor for one saved trial folder.
 class TrialMeta:
+
     def __init__(self, trial_number: int, trial_dir: str):
         self.trial_number = trial_number
-        self.trial_dir = trial_dir
-        self.files: list[str] = []
+        self.trial_dir    = trial_dir
+        self.files: list  = []
         self._scan()
 
-    # _scan: Populate the list of files in this trial's folder
+    # _scan: Populate the files list from disk.
     def _scan(self):
         if os.path.isdir(self.trial_dir):
-            self.files = sorted(f for f in os.listdir(self.trial_dir)
-                                if os.path.isfile(os.path.join(self.trial_dir, f)))
+            self.files = sorted(
+                f for f in os.listdir(self.trial_dir)
+                if os.path.isfile(os.path.join(self.trial_dir, f))
+            )
 
 
-# OutputLoader: Discovers all trial folders under the output root
+# OutputLoader: Scans the trials directory and returns sorted TrialMeta objects.
 class OutputLoader:
 
-    # __init__ (output_root: path to output/trials/)
     def __init__(self, output_root: str):
         self.output_root = output_root
 
-    # scan_trials: Return a list of TrialMeta objects sorted by trial number
-    def scan_trials(self) -> list[TrialMeta]:
+    # scan_trials: Return TrialMeta list sorted ascending by trial number.
+    def scan_trials(self) -> list:
         if not os.path.isdir(self.output_root):
             return []
         trials = []
@@ -53,5 +43,5 @@ class OutputLoader:
                     trials.append(TrialMeta(num, full))
                 except (IndexError, ValueError):
                     continue
-        log.info(f"Found {len(trials)} trial(s) in output folder.")
+        log.info(f"Found {len(trials)} trial(s).")
         return trials

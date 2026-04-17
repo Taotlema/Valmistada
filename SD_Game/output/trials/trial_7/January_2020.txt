@@ -1,0 +1,68 @@
+Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
+January 2020,1,Bus,Weekday,710
+January 2020,12,Bus,Weekday,770
+January 2020,14,Bus,Weekday,756
+January 2020,15,Bus,Weekday,708
+January 2020,18,Bus,Weekday,711
+January 2020,19,Bus,Weekday,885
+January 2020,2,Bus,Weekday,611
+January 2020,22,Bus,Weekday,717
+January 2020,23,Bus,Weekday,775
+January 2020,24,Bus,Weekday,839
+January 2020,25,Bus,Weekday,562
+January 2020,27,Bus,Weekday,757
+January 2020,28,Bus,Weekday,690
+January 2020,29,Bus,Weekday,875
+January 2020,30,Bus,Weekday,750
+January 2020,31,Bus,Weekday,715
+January 2020,33,Bus,Weekday,780
+January 2020,35,Bus,Weekday,717
+January 2020,36,Bus,Weekday,754
+January 2020,37,Bus,Weekday,721
+January 2020,38,Bus,Weekday,779
+January 2020,39,Bus,Weekday,615
+January 2020,43,Bus,Weekday,874
+January 2020,44,Bus,Weekday,853
+January 2020,45,Bus,Weekday,664
+January 2020,48,Bus,Weekday,776
+January 2020,49,Bus,Weekday,704
+January 2020,5,Bus,Weekday,708
+January 2020,52,Bus,Weekday,662
+January 2020,54,Bus,Weekday,"1,131"
+January 2020,55,Bus,Weekday,557
+January 2020,56,Bus,Weekday,714
+January 2020,57,Bus,Weekday,663
+January 2020,58,Bus,Weekday,617
+January 2020,6,Bus,Weekday,652
+January 2020,66,Bus,Weekday,646
+January 2020,67,Bus,Weekday,660
+January 2020,7,Bus,Weekday,816
+January 2020,8,Bus,Weekday,754
+January 2020,9,Bus,Weekday,732
+January 2020,90,Bus,Weekday,608
+January 2020,91,Bus,Weekday,860
+January 2020,14R,Bus,Weekday,648
+January 2020,1X,Bus,Weekday,606
+January 2020,28R,Bus,Weekday,608
+January 2020,30X,Bus,Weekday,562
+January 2020,38R,Bus,Weekday,642
+January 2020,5R,Bus,Weekday,664
+January 2020,8AX,Bus,Weekday,563
+January 2020,8BX,Bus,Weekday,778
+January 2020,9R,Bus,Weekday,667
+January 2020,KBUS,Bus,Weekday,594
+January 2020,LOWL,Bus,Weekday,724
+January 2020,NBUS,Bus,Weekday,756
+January 2020,NOWL,Bus,Weekday,710
+January 2020,TBUS,Bus,Weekday,562
+January 2020,CA,Cable Car,Weekday,552
+January 2020,PH,Cable Car,Weekday,580
+January 2020,PM,Cable Car,Weekday,554
+January 2020,F,Light Rail,Weekday,661
+January 2020,FBUS,Light Rail,Weekday,605
+January 2020,J,Light Rail,Weekday,664
+January 2020,K,Light Rail,Weekday,613
+January 2020,L,Light Rail,Weekday,708
+January 2020,M,Light Rail,Weekday,634
+January 2020,N,Light Rail,Weekday,648
+January 2020,T,Light Rail,Weekday,672

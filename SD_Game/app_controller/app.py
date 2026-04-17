@@ -18,6 +18,14 @@ from data.storage.file_manager import FileManager
 
 log = logging.getLogger(__name__)
 
+# Generation model constants — single source of truth used by StartScreen and SimulationEngine
+GEN_DETERMINISTIC  = "deterministic"
+GEN_HIGH_FIDELITY  = "high_fidelity"
+GEN_RULE_BASED_V1  = "rule_based_v1"
+GEN_RULE_BASED_V2  = "rule_based_v2"
+
+_DEFAULT_MAX_ROUTES = 40   # head-mode cap used when full_routes=False
+
 
 # AppController: Top-level QMainWindow that owns all shared application state.
 class AppController(QMainWindow):
@@ -38,9 +46,15 @@ class AppController(QMainWindow):
         self.feeds:      dict = {}
         self.processors: dict = {}
 
+        # Generation model selection — read by SimulationEngine at build_world time
+        self.generation_model: str  = GEN_RULE_BASED_V1
+        # Route loading mode — True loads the full transit network, False uses a head cap
+        self.full_routes: bool       = False
+
         # Load modifier data at startup so it is ready when the sim runs
         self.modifier = ModifierLoader(
-            os.path.join(self.modifier_root, "San Francisco")
+            os.path.join(self.modifier_root, "San Francisco"),
+            sim_year=2019,
         )
         self.modifier.load()
 
@@ -122,6 +136,14 @@ class AppController(QMainWindow):
     # next_trial_number: Return the next unused trial integer from the output folder.
     def next_trial_number(self) -> int:
         return FileManager.next_trial_number(self.output_root)
+
+    # max_routes_cap: Route cap based on full_routes toggle.
+    def max_routes_cap(self) -> int:
+        return 9999 if self.full_routes else _DEFAULT_MAX_ROUTES
+
+    # modifier_enabled: Whether the user wants modifier data applied.
+    def modifier_enabled(self) -> bool:
+        return self.start_screen.modifier_enabled()
 
     # _on_sim_completed: Export results to disk and notify the output screen.
     def _on_sim_completed(self, trial_result):

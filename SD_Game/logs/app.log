@@ -387,3 +387,179 @@
 2026-04-13 07:12:53,993  INFO      game_world.map.graph_builder - Graph: 40 routes (29 bus, 8 light rail, 3 cable car, 0 subway), 230 stations, 40 with shape data
 2026-04-13 07:12:54,001  INFO      game_world.core.simulation_engine - World built: 40 routes, 40 vehicles
 2026-04-13 07:15:11,828  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 17:56:34,253  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-16 17:56:34,367  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-16 17:56:34,371  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-16 17:56:34,855  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-16 17:56:34,862  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-16 17:56:44,078  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-16 17:56:44,184  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-16 17:56:44,185  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-16 17:56:44,911  INFO      data.loaders.output_loader - Found 4 trial(s).
+2026-04-16 17:56:45,243  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-16 17:56:47,746  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 18:44:19,407  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-16 18:44:19,544  INFO      data.loaders.modifier_loader - Ridership loaded: 12,402 rows
+2026-04-16 18:44:19,548  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-16 18:44:20,089  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-16 18:44:20,096  INFO      data.loaders.modifier_loader - Modifier data loaded.
+2026-04-16 18:44:29,924  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-16 18:44:30,037  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-16 18:44:30,040  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-16 18:44:30,561  INFO      data.loaders.output_loader - Found 4 trial(s).
+2026-04-16 18:44:30,886  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-16 18:44:33,384  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:25:23,329  INFO      __main__ - Starting Valmistada v1.0.0
+2026-04-16 19:25:23,392  INFO      data.loaders.modifier_loader - Ridership segmented to 2019: 2,274 rows (12,402 total across all years)
+2026-04-16 19:25:23,394  INFO      data.loaders.modifier_loader - Population loaded: 873,965
+2026-04-16 19:25:23,882  INFO      data.loaders.modifier_loader - Land use loaded: 11 types
+2026-04-16 19:25:23,895  INFO      data.loaders.modifier_loader - ACS commute departure loaded: 55 rows from ACSDT1Y2024.C08132-2026-03-26T222031.csv
+2026-04-16 19:25:23,977  INFO      data.loaders.modifier_loader - LODES commute workers loaded: 79,794
+2026-04-16 19:25:23,977  INFO      data.loaders.modifier_loader - Modifier data loaded for sim_year=2019. Ridership rows (full): 12,402 | Ridership rows (2019): 2,274
+2026-04-16 19:25:33,040  INFO      data.loaders.gtfs_loader - Loaded San Francisco: 68 routes, 3243 stops, 34632 trips
+2026-04-16 19:25:33,146  INFO      data.processors.gtfs_processor - GTFSProcessor ready: 3243 stops, 68 routes
+2026-04-16 19:25:33,146  INFO      app_controller.app - Feed ready: San Francisco
+2026-04-16 19:25:33,604  INFO      data.loaders.output_loader - Found 4 trial(s).
+2026-04-16 19:25:33,917  INFO      app_controller.screen_manager - Navigated to loading
+2026-04-16 19:25:36,420  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:25:46,859  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 19:25:48,907  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 5
+2026-04-16 19:25:48,937  INFO      game_world.map.graph_builder - Graph: 40 routes (29 bus, 8 light rail, 3 cable car, 0 subway), 230 stations, 40 with shape data
+2026-04-16 19:25:48,998  INFO      game_world.systems.ridership_system_rb2 - RB2: ACS hour weights built for 6 hours
+2026-04-16 19:25:48,998  INFO      game_world.systems.ridership_system_rb2 - RB2: LODES commute scalar = 0.600
+2026-04-16 19:25:48,998  INFO      game_world.core.simulation_engine - Ridership system: rule_based_v2 | routes: 40 (full_routes=False)
+2026-04-16 19:25:48,999  INFO      game_world.core.simulation_engine - World built: 40 routes, 40 vehicles
+2026-04-16 19:25:52,850  INFO      app_controller.app - Simulation aborted - no data saved.
+2026-04-16 19:25:52,852  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:25:57,833  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 19:25:59,211  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 5
+2026-04-16 19:25:59,250  INFO      game_world.map.graph_builder - Graph: 67 routes (56 bus, 8 light rail, 3 cable car, 0 subway), 375 stations, 67 with shape data
+2026-04-16 19:25:59,258  INFO      game_world.systems.ridership_system_rb2 - RB2: ACS hour weights built for 6 hours
+2026-04-16 19:25:59,258  INFO      game_world.systems.ridership_system_rb2 - RB2: LODES commute scalar = 0.600
+2026-04-16 19:25:59,258  INFO      game_world.core.simulation_engine - Ridership system: rule_based_v2 | routes: 67 (full_routes=True)
+2026-04-16 19:25:59,259  INFO      game_world.core.simulation_engine - World built: 67 routes, 67 vehicles
+2026-04-16 19:26:17,969  INFO      app_controller.app - Simulation aborted - no data saved.
+2026-04-16 19:26:17,971  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:26:38,365  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 19:26:40,425  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:26:48,678  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 19:26:51,193  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 5
+2026-04-16 19:26:51,231  INFO      game_world.map.graph_builder - Graph: 67 routes (56 bus, 8 light rail, 3 cable car, 0 subway), 375 stations, 67 with shape data
+2026-04-16 19:26:51,241  INFO      game_world.core.simulation_engine - Ridership system: deterministic | routes: 67 (full_routes=True)
+2026-04-16 19:26:51,242  INFO      game_world.core.simulation_engine - World built: 67 routes, 67 vehicles
+2026-04-16 19:28:18,030  INFO      game_world.core.simulation_engine - Month transition to February 2019
+2026-04-16 19:29:31,196  INFO      game_world.core.simulation_engine - Month transition to March 2019
+2026-04-16 19:30:59,234  INFO      game_world.core.simulation_engine - Month transition to April 2019
+2026-04-16 19:32:26,882  INFO      game_world.core.simulation_engine - Month transition to May 2019
+2026-04-16 19:33:51,060  INFO      game_world.core.simulation_engine - Month transition to June 2019
+2026-04-16 19:35:10,264  INFO      game_world.core.simulation_engine - Month transition to July 2019
+2026-04-16 19:36:28,321  INFO      game_world.core.simulation_engine - Month transition to August 2019
+2026-04-16 19:37:50,434  INFO      game_world.core.simulation_engine - Month transition to September 2019
+2026-04-16 19:39:11,402  INFO      game_world.core.simulation_engine - Month transition to October 2019
+2026-04-16 19:40:33,642  INFO      game_world.core.simulation_engine - Month transition to November 2019
+2026-04-16 19:41:48,703  INFO      game_world.core.simulation_engine - Month transition to December 2019
+2026-04-16 19:43:08,290  INFO      game_world.core.simulation_engine - Month transition to January 2020
+2026-04-16 19:43:08,309  INFO      data.storage.export_manager - Trial 5 exported - 13 files to SD_Game/output/trials\trial_5
+2026-04-16 19:43:08,315  INFO      data.loaders.output_loader - Found 5 trial(s).
+2026-04-16 19:43:08,398  INFO      data.loaders.output_loader - Found 5 trial(s).
+2026-04-16 19:43:08,477  INFO      game_world.core.simulation_engine - Year complete.
+2026-04-16 19:44:31,667  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:44:52,007  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 19:44:53,791  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 6
+2026-04-16 19:44:53,831  INFO      game_world.map.graph_builder - Graph: 67 routes (56 bus, 8 light rail, 3 cable car, 0 subway), 375 stations, 67 with shape data
+2026-04-16 19:44:53,844  INFO      game_world.core.simulation_engine - Ridership system: high_fidelity | routes: 67 (full_routes=True)
+2026-04-16 19:44:53,844  INFO      game_world.core.simulation_engine - World built: 67 routes, 67 vehicles
+2026-04-16 19:46:13,424  INFO      game_world.core.simulation_engine - Month transition to February 2019
+2026-04-16 19:46:22,776  INFO      game_world.core.simulation_engine - Month transition to March 2019
+2026-04-16 19:46:34,525  INFO      game_world.core.simulation_engine - Month transition to April 2019
+2026-04-16 19:46:44,659  INFO      game_world.core.simulation_engine - Month transition to May 2019
+2026-04-16 19:46:54,947  INFO      game_world.core.simulation_engine - Month transition to June 2019
+2026-04-16 19:47:06,188  INFO      game_world.core.simulation_engine - Month transition to July 2019
+2026-04-16 19:47:17,888  INFO      game_world.core.simulation_engine - Month transition to August 2019
+2026-04-16 19:47:42,196  INFO      game_world.core.simulation_engine - Month transition to September 2019
+2026-04-16 19:48:58,856  INFO      game_world.core.simulation_engine - Month transition to October 2019
+2026-04-16 19:50:22,799  INFO      game_world.core.simulation_engine - Month transition to November 2019
+2026-04-16 19:51:44,507  INFO      game_world.core.simulation_engine - Month transition to December 2019
+2026-04-16 19:53:10,205  INFO      game_world.core.simulation_engine - Month transition to January 2020
+2026-04-16 19:53:10,221  INFO      data.storage.export_manager - Trial 6 exported - 13 files to SD_Game/output/trials\trial_6
+2026-04-16 19:53:10,221  INFO      data.loaders.output_loader - Found 6 trial(s).
+2026-04-16 19:53:10,317  INFO      data.loaders.output_loader - Found 6 trial(s).
+2026-04-16 19:53:10,412  INFO      game_world.core.simulation_engine - Year complete.
+2026-04-16 19:54:27,481  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 19:54:50,198  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 19:54:53,363  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 7
+2026-04-16 19:54:53,395  INFO      game_world.map.graph_builder - Graph: 67 routes (56 bus, 8 light rail, 3 cable car, 0 subway), 375 stations, 67 with shape data
+2026-04-16 19:54:53,411  INFO      game_world.core.simulation_engine - Ridership system: rule_based_v1 | routes: 67 (full_routes=True)
+2026-04-16 19:54:53,411  INFO      game_world.core.simulation_engine - World built: 67 routes, 67 vehicles
+2026-04-16 19:56:14,978  INFO      game_world.core.simulation_engine - Month transition to February 2019
+2026-04-16 19:57:26,266  INFO      game_world.core.simulation_engine - Month transition to March 2019
+2026-04-16 19:58:55,856  INFO      game_world.core.simulation_engine - Month transition to April 2019
+2026-04-16 20:00:24,008  INFO      game_world.core.simulation_engine - Month transition to May 2019
+2026-04-16 20:01:07,338  INFO      game_world.core.simulation_engine - Month transition to June 2019
+2026-04-16 20:01:17,942  INFO      game_world.core.simulation_engine - Month transition to July 2019
+2026-04-16 20:01:28,578  INFO      game_world.core.simulation_engine - Month transition to August 2019
+2026-04-16 20:01:40,270  INFO      game_world.core.simulation_engine - Month transition to September 2019
+2026-04-16 20:02:21,078  INFO      game_world.core.simulation_engine - Month transition to October 2019
+2026-04-16 20:03:47,609  INFO      game_world.core.simulation_engine - Month transition to November 2019
+2026-04-16 20:06:19,403  INFO      game_world.core.simulation_engine - Month transition to December 2019
+2026-04-16 20:08:55,664  INFO      game_world.core.simulation_engine - Month transition to January 2020
+2026-04-16 20:08:55,689  INFO      data.storage.export_manager - Trial 7 exported - 13 files to SD_Game/output/trials\trial_7
+2026-04-16 20:08:55,694  INFO      data.loaders.output_loader - Found 7 trial(s).
+2026-04-16 20:08:55,915  INFO      data.loaders.output_loader - Found 7 trial(s).
+2026-04-16 20:08:56,075  INFO      game_world.core.simulation_engine - Year complete.
+2026-04-16 20:14:31,477  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 8
+2026-04-16 20:14:31,582  INFO      game_world.map.graph_builder - Graph: 67 routes (56 bus, 8 light rail, 3 cable car, 0 subway), 375 stations, 67 with shape data
+2026-04-16 20:14:31,591  INFO      game_world.core.simulation_engine - Ridership system: rule_based_v1 | routes: 67 (full_routes=True)
+2026-04-16 20:14:31,591  INFO      game_world.core.simulation_engine - World built: 67 routes, 67 vehicles
+2026-04-16 20:14:35,640  INFO      app_controller.app - Simulation aborted - no data saved.
+2026-04-16 20:14:35,642  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 20:15:00,505  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 20:15:03,448  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 20:15:08,865  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 20:15:10,437  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 8
+2026-04-16 20:15:10,541  INFO      game_world.map.graph_builder - Graph: 40 routes (29 bus, 8 light rail, 3 cable car, 0 subway), 230 stations, 40 with shape data
+2026-04-16 20:15:10,554  INFO      game_world.systems.ridership_system_rb2 - RB2: ACS hour weights built for 6 hours
+2026-04-16 20:15:10,555  INFO      game_world.systems.ridership_system_rb2 - RB2: LODES commute scalar = 0.600
+2026-04-16 20:15:10,555  INFO      game_world.core.simulation_engine - Ridership system: rule_based_v2 | routes: 40 (full_routes=False)
+2026-04-16 20:15:10,555  INFO      game_world.core.simulation_engine - World built: 40 routes, 40 vehicles
+2026-04-16 20:16:10,625  INFO      game_world.core.simulation_engine - Month transition to February 2019
+2026-04-16 20:17:02,085  INFO      game_world.core.simulation_engine - Month transition to March 2019
+2026-04-16 20:18:02,744  INFO      game_world.core.simulation_engine - Month transition to April 2019
+2026-04-16 20:18:59,357  INFO      game_world.core.simulation_engine - Month transition to May 2019
+2026-04-16 20:19:55,646  INFO      game_world.core.simulation_engine - Month transition to June 2019
+2026-04-16 20:20:49,168  INFO      game_world.core.simulation_engine - Month transition to July 2019
+2026-04-16 20:21:43,868  INFO      game_world.core.simulation_engine - Month transition to August 2019
+2026-04-16 20:22:36,897  INFO      game_world.core.simulation_engine - Month transition to September 2019
+2026-04-16 20:23:28,306  INFO      game_world.core.simulation_engine - Month transition to October 2019
+2026-04-16 20:24:23,012  INFO      game_world.core.simulation_engine - Month transition to November 2019
+2026-04-16 20:25:14,387  INFO      game_world.core.simulation_engine - Month transition to December 2019
+2026-04-16 20:26:05,983  INFO      game_world.core.simulation_engine - Month transition to January 2020
+2026-04-16 20:26:05,998  INFO      data.storage.export_manager - Trial 8 exported - 13 files to SD_Game/output/trials\trial_8
+2026-04-16 20:26:06,001  INFO      data.loaders.output_loader - Found 8 trial(s).
+2026-04-16 20:26:06,129  INFO      data.loaders.output_loader - Found 8 trial(s).
+2026-04-16 20:26:06,257  INFO      game_world.core.simulation_engine - Year complete.
+2026-04-16 20:56:56,307  INFO      app_controller.screen_manager - Navigated to start
+2026-04-16 20:56:59,545  INFO      app_controller.screen_manager - Navigated to game_world
+2026-04-16 20:57:01,043  INFO      game_world.core.simulation_engine - SimulationEngine created - trial 9
+2026-04-16 20:57:01,073  INFO      game_world.map.graph_builder - Graph: 67 routes (56 bus, 8 light rail, 3 cable car, 0 subway), 375 stations, 67 with shape data
+2026-04-16 20:57:01,081  INFO      game_world.systems.ridership_system_rb2 - RB2: ACS hour weights built for 6 hours
+2026-04-16 20:57:01,081  INFO      game_world.systems.ridership_system_rb2 - RB2: LODES commute scalar = 0.600
+2026-04-16 20:57:01,081  INFO      game_world.core.simulation_engine - Ridership system: rule_based_v2 | routes: 67 (full_routes=True)
+2026-04-16 20:57:01,081  INFO      game_world.core.simulation_engine - World built: 67 routes, 67 vehicles
+2026-04-16 20:58:34,123  INFO      game_world.core.simulation_engine - Month transition to February 2019
+2026-04-16 20:59:44,228  INFO      game_world.core.simulation_engine - Month transition to March 2019
+2026-04-16 21:01:01,068  INFO      game_world.core.simulation_engine - Month transition to April 2019
+2026-04-16 21:02:18,228  INFO      game_world.core.simulation_engine - Month transition to May 2019
+2026-04-16 21:03:36,357  INFO      game_world.core.simulation_engine - Month transition to June 2019
+2026-04-16 21:04:56,424  INFO      game_world.core.simulation_engine - Month transition to July 2019
+2026-04-16 21:06:22,320  INFO      game_world.core.simulation_engine - Month transition to August 2019
+2026-04-16 21:07:52,027  INFO      game_world.core.simulation_engine - Month transition to September 2019
+2026-04-16 21:10:03,172  INFO      game_world.core.simulation_engine - Month transition to October 2019
+2026-04-16 21:11:21,684  INFO      game_world.core.simulation_engine - Month transition to November 2019
+2026-04-16 21:12:36,932  INFO      game_world.core.simulation_engine - Month transition to December 2019
+2026-04-16 21:14:11,535  INFO      game_world.core.simulation_engine - Month transition to January 2020
+2026-04-16 21:14:11,552  INFO      data.storage.export_manager - Trial 9 exported - 13 files to SD_Game/output/trials\trial_9
+2026-04-16 21:14:11,556  INFO      data.loaders.output_loader - Found 9 trial(s).
+2026-04-16 21:14:11,700  INFO      data.loaders.output_loader - Found 9 trial(s).
+2026-04-16 21:14:11,851  INFO      game_world.core.simulation_engine - Year complete.
+2026-04-16 21:15:22,359  INFO      app_controller.screen_manager - Navigated to start

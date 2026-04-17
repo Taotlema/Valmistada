@@ -14,11 +14,21 @@ from ui.components.status_indicator import StatusIndicator
 from ui.components.dashboard_widget import DashboardWidget
 from app_controller.event_bus       import EventBus, Events
 from app_controller.screen_manager  import ScreenManager
+from app_controller.app             import (GEN_DETERMINISTIC, GEN_HIGH_FIDELITY,
+                                             GEN_RULE_BASED_V1, GEN_RULE_BASED_V2)
 
 _MONO = THEME["font"]
 _G    = THEME["primary"]
 _W    = "#e0e0e0"
 _M    = "#777777"
+
+# Ordered list of (model_constant, display_label) for the generation model buttons
+_GEN_MODELS = [
+    (GEN_DETERMINISTIC, "DETERMINISTIC"),
+    (GEN_HIGH_FIDELITY, "HIGH-FIDELITY"),
+    (GEN_RULE_BASED_V1, "RULE-BASED V1"),
+    (GEN_RULE_BASED_V2, "RULE-BASED V2"),
+]
 
 
 # StartScreen: Left hero+nav grid, right status sidebar; no top header bar.
@@ -26,6 +36,7 @@ class StartScreen(BaseScreen):
 
     def __init__(self, bus: EventBus, settings: dict, app_controller):
         self._ctrl = app_controller
+        self._gen_buttons: dict = {}   # model_constant -> QPushButton
         super().__init__(bus, settings)
         self.bus.subscribe(Events.GTFS_LOADED, lambda _: self._refresh_status())
         self.bus.subscribe(Events.TRIAL_SAVED, lambda _: self._refresh_status())
@@ -35,14 +46,13 @@ class StartScreen(BaseScreen):
         root.setContentsMargins(0, 0, 0, 0)
         root.setSpacing(0)
 
-        # Left column: hero block + nav grid filling all remaining height
+        # ── Left column: hero block + nav grid ──────────────────────────────
         left = QWidget()
         left.setStyleSheet(f"background: {THEME['bg']};")
         left_layout = QVBoxLayout(left)
         left_layout.setContentsMargins(0, 0, 0, 0)
         left_layout.setSpacing(0)
 
-        # Hero block with title and version
         hero = QWidget()
         hero.setStyleSheet(f"background: {THEME['surface']};")
         hv = QVBoxLayout(hero)
@@ -66,14 +76,13 @@ class StartScreen(BaseScreen):
 
         left_layout.addWidget(hero)
 
-        # Single subtle separator between hero and grid — no bright white line
         sep = QFrame()
         sep.setFrameShape(QFrame.Shape.HLine)
         sep.setFixedHeight(1)
         sep.setStyleSheet("background-color: #2a2a2a; border: none;")
         left_layout.addWidget(sep)
 
-        # 2x2 nav grid; stretch=1 makes it fill all space below the hero block
+        # 2×2 nav grid
         nav_container = QWidget()
         nav_container.setStyleSheet(f"background: {THEME['bg']};")
         nav_layout = QHBoxLayout(nav_container)
@@ -96,7 +105,6 @@ class StartScreen(BaseScreen):
         btn_sim    = self._make_nav_cell("[*]", "RUN SIMULATION", "Launch game world",
                                           self._go_to_game_world, primary=True)
 
-        # Primary cell gets a subtle green border at rest; all others are dark
         col1.addWidget(btn_input, 1)
         col1.addWidget(btn_dict, 1)
         col2.addWidget(btn_output, 1)
@@ -104,7 +112,6 @@ class StartScreen(BaseScreen):
 
         nav_layout.addLayout(col1)
 
-        # Dark vertical divider between columns
         vd = QFrame()
         vd.setFrameShape(QFrame.Shape.VLine)
         vd.setFixedWidth(1)
@@ -115,7 +122,7 @@ class StartScreen(BaseScreen):
         left_layout.addWidget(nav_container, 1)
         root.addWidget(left, 3)
 
-        # Right column: status sidebar — unchanged from earlier iteration
+        # ── Right column: status sidebar ─────────────────────────────────────
         right = QWidget()
         right.setStyleSheet(
             f"background: {THEME['surface']}; "
@@ -125,6 +132,7 @@ class StartScreen(BaseScreen):
         right_layout.setContentsMargins(0, 0, 0, 0)
         right_layout.setSpacing(0)
 
+        # -- SYSTEM STATUS --
         right_layout.addWidget(self._make_section_header("// SYSTEM STATUS"))
 
         status_wrap = QWidget()
@@ -140,6 +148,7 @@ class StartScreen(BaseScreen):
         sw.addWidget(self._trials_ind)
         right_layout.addWidget(status_wrap)
 
+        # -- SESSION STATS --
         right_layout.addWidget(self._make_section_header("// SESSION STATS"))
         self._dashboard = DashboardWidget()
         dash_wrap = QWidget()
@@ -149,6 +158,26 @@ class StartScreen(BaseScreen):
         dv.addWidget(self._dashboard)
         right_layout.addWidget(dash_wrap)
 
+        # -- GENERATION MODEL --
+        right_layout.addWidget(self._make_section_header("// GENERATION MODEL"))
+        gen_wrap = QWidget()
+        gen_wrap.setStyleSheet("background: transparent;")
+        gv = QVBoxLayout(gen_wrap)
+        gv.setContentsMargins(16, 10, 16, 10)
+        gv.setSpacing(6)
+
+        for model_key, label in _GEN_MODELS:
+            btn = QPushButton(label)
+            btn.setFont(QFont("Courier New", 10))
+            btn.setFixedHeight(28)
+            btn.setCursor(Qt.CursorShape.PointingHandCursor)
+            btn.clicked.connect(lambda checked, k=model_key: self._select_gen_model(k))
+            self._gen_buttons[model_key] = btn
+            gv.addWidget(btn)
+
+        right_layout.addWidget(gen_wrap)
+
+        # -- OPTIONS --
         right_layout.addWidget(self._make_section_header("// OPTIONS"))
         opts_wrap = QWidget()
         opts_wrap.setStyleSheet("background: transparent;")
@@ -163,6 +192,14 @@ class StartScreen(BaseScreen):
         )
         self._modifier_toggle.setChecked(True)
 
+        self._full_routes_toggle = QCheckBox("  FULL ROUTE NETWORK")
+        self._full_routes_toggle.setFont(QFont("Courier New", 11))
+        self._full_routes_toggle.setStyleSheet(
+            f"color: {_W}; background: transparent; spacing: 8px;"
+        )
+        self._full_routes_toggle.setChecked(False)
+        self._full_routes_toggle.toggled.connect(self._on_full_routes_toggled)
+
         self._verbose_toggle = QCheckBox("  VERBOSE LOGGING")
         self._verbose_toggle.setFont(QFont("Courier New", 11))
         self._verbose_toggle.setStyleSheet(
@@ -170,6 +207,7 @@ class StartScreen(BaseScreen):
         )
 
         ow.addWidget(self._modifier_toggle)
+        ow.addWidget(self._full_routes_toggle)
         ow.addWidget(self._verbose_toggle)
         right_layout.addWidget(opts_wrap)
 
@@ -190,14 +228,61 @@ class StartScreen(BaseScreen):
 
         root.addWidget(right, 2)
 
-    # _make_nav_cell: Single QWidget cell with vertically centred labels inside.
+        # Apply initial button styling after all buttons exist
+        self._refresh_gen_model_buttons()
+
+    # ── Generation model selection ───────────────────────────────────────────
+
+    def _select_gen_model(self, model_key: str):
+        self._ctrl.generation_model = model_key
+        self._refresh_gen_model_buttons()
+
+    def _refresh_gen_model_buttons(self):
+        active = getattr(self._ctrl, "generation_model", GEN_RULE_BASED_V1)
+        for key, btn in self._gen_buttons.items():
+            if key == active:
+                btn.setStyleSheet(f"""
+                    QPushButton {{
+                        background-color: {_G};
+                        color: #000000;
+                        font-family: {_MONO};
+                        font-size: 10px;
+                        font-weight: bold;
+                        border: none;
+                        text-align: left;
+                        padding-left: 10px;
+                    }}
+                """)
+            else:
+                btn.setStyleSheet(f"""
+                    QPushButton {{
+                        background-color: {THEME['surface2']};
+                        color: {_M};
+                        font-family: {_MONO};
+                        font-size: 10px;
+                        border: 1px solid {THEME['border']};
+                        text-align: left;
+                        padding-left: 10px;
+                    }}
+                    QPushButton:hover {{
+                        border-color: {_G};
+                        color: {_W};
+                    }}
+                """)
+
+    # ── Full-routes toggle ───────────────────────────────────────────────────
+
+    def _on_full_routes_toggled(self, checked: bool):
+        self._ctrl.full_routes = checked
+
+    # ── Nav cell factory ─────────────────────────────────────────────────────
+
     def _make_nav_cell(self, icon: str, name: str, desc: str,
                        callback, primary: bool = False) -> QWidget:
         cell = QWidget()
         cell.setCursor(Qt.CursorShape.PointingHandCursor)
         cell.setObjectName("navCell")
 
-        # Primary cell gets green border at rest; all others get dark border
         border = _G if primary else "#2a2a2a"
         cell.setStyleSheet(f"""
             QWidget#navCell {{
@@ -238,7 +323,8 @@ class StartScreen(BaseScreen):
         vbox.addWidget(desc_lbl)
         return cell
 
-    # _make_section_header: Green label bar for right-column section separators.
+    # ── Section header factory ───────────────────────────────────────────────
+
     def _make_section_header(self, text: str) -> QWidget:
         wrap = QWidget()
         wrap.setFixedHeight(32)
@@ -254,10 +340,12 @@ class StartScreen(BaseScreen):
         layout.addWidget(lbl)
         return wrap
 
+    # ── Lifecycle ────────────────────────────────────────────────────────────
+
     def on_enter(self):
         self._refresh_status()
+        self._refresh_gen_model_buttons()
 
-    # _refresh_status: Pull live state and update all three status indicators.
     def _refresh_status(self):
         batch_ok    = self._ctrl.is_batch_ready()
         modifier_ok = self._ctrl.is_modifier_ready()
@@ -277,7 +365,6 @@ class StartScreen(BaseScreen):
         )
         self._dashboard.refresh(self._ctrl)
 
-    # _go_to_game_world: Auto-load the SF feed if needed, then navigate.
     def _go_to_game_world(self):
         if not self._ctrl.is_batch_ready():
             gtfs_dir = os.path.join(
@@ -287,6 +374,10 @@ class StartScreen(BaseScreen):
                 self._ctrl.load_city_feed("San Francisco", gtfs_dir)
         self._ctrl.screen_manager.navigate(ScreenManager.GAME_WORLD)
 
-    # modifier_enabled: Whether the user wants modifier data applied to the simulation.
+    # ── Public accessors used by SimulationEngine ────────────────────────────
+
     def modifier_enabled(self) -> bool:
         return self._modifier_toggle.isChecked()
+
+    def verbose_logging(self) -> bool:
+        return self._verbose_toggle.isChecked()

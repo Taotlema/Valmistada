@@ -8,12 +8,14 @@ from typing import List
 from PyQt6.QtCore import QTimer
 
 from app_controller.event_bus import EventBus, Events
+from app_controller.app import (GEN_DETERMINISTIC, GEN_HIGH_FIDELITY,
+                                 GEN_RULE_BASED_V1, GEN_RULE_BASED_V2)
+
 from game_world.core.time_manager  import TimeManager
 from game_world.core.event_system  import EventSystem
 from game_world.entities.route     import RouteEntity
 from game_world.entities.station   import Station
 from game_world.entities.vehicle   import Vehicle
-from game_world.systems.ridership_system  import RidershipSystem
 from game_world.systems.scheduling_system import SchedulingSystem
 from game_world.systems.modifier_system   import ModifierSystem
 from game_world.map.graph_builder    import GraphBuilder
@@ -23,8 +25,25 @@ from data.processors.aggregator      import Aggregator
 
 log = logging.getLogger(__name__)
 
-# Timer fires every 100ms at speed x1; faster speeds increase ticks-per-interval instead
+# Timer fires every 100 ms at speed x1; faster speeds increase ticks-per-interval instead
 _BASE_MS = 100
+
+
+def _build_ridership_system(generation_model: str, sim_config: dict,
+                             modifier_loader, aggregator: Aggregator):
+    """Factory: return the correct RidershipSystem subclass for the selected model."""
+
+    if generation_model == GEN_DETERMINISTIC:
+        from game_world.systems.ridership_system_deterministic import RidershipSystem
+    elif generation_model == GEN_HIGH_FIDELITY:
+        from game_world.systems.ridership_system_hifi import RidershipSystem
+    elif generation_model == GEN_RULE_BASED_V2:
+        from game_world.systems.ridership_system_rb2 import RidershipSystem
+    else:
+        # Default / GEN_RULE_BASED_V1
+        from game_world.systems.ridership_system import RidershipSystem
+
+    return RidershipSystem(sim_config, modifier_loader, aggregator)
 
 
 # SimulationEngine: Owns the QTimer loop, all entity lists, and the rendering pipeline.
@@ -54,7 +73,7 @@ class SimulationEngine:
 
         self.map_loader: MapLoader       = None
         self.renderer:   RendererAdapter = None
-        self._ridership:  RidershipSystem  = None
+        self._ridership:  object          = None
         self._scheduling: SchedulingSystem = None
 
         self._timer = QTimer()
@@ -75,7 +94,9 @@ class SimulationEngine:
             log.error(f"No processor found for {city_label}")
             return
 
-        builder = GraphBuilder(proc, max_routes=40)
+        # Respect the full_routes toggle set on AppController
+        max_routes = self._ctrl.max_routes_cap()
+        builder = GraphBuilder(proc, max_routes=max_routes)
         self.routes, self.stations, _ = builder.build()
 
         self.map_loader = MapLoader(proc, canvas_w, canvas_h)
@@ -83,9 +104,17 @@ class SimulationEngine:
 
         # Apply population and land-use demand weights before spawning vehicles
         mod = self._ctrl.modifier
-        ModifierSystem(mod).apply(self.stations)
+        if self._ctrl.modifier_enabled():
+            ModifierSystem(mod).apply(self.stations)
 
-        self._ridership  = RidershipSystem(self._cfg, mod, self._aggreg)
+        # Instantiate the correct ridership system for the selected generation model
+        generation_model = getattr(self._ctrl, "generation_model", GEN_RULE_BASED_V1)
+        self._ridership = _build_ridership_system(
+            generation_model, self._cfg, mod, self._aggreg
+        )
+        log.info(f"Ridership system: {generation_model} | routes: {len(self.routes)} "
+                 f"(full_routes={self._ctrl.full_routes})")
+
         self._scheduling = SchedulingSystem(
             self._cfg, capacity=self._cfg["simulation"]["vehicle_capacity"]
         )

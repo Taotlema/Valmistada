@@ -1,121 +1,121 @@
 Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
-September 2019,1,Bus,Sunday,900
-September 2019,12,Bus,Sunday,900
-September 2019,14,Bus,Sunday,900
-September 2019,15,Bus,Sunday,900
-September 2019,18,Bus,Sunday,900
-September 2019,19,Bus,Sunday,900
-September 2019,2,Bus,Sunday,900
-September 2019,22,Bus,Sunday,900
-September 2019,23,Bus,Sunday,900
-September 2019,24,Bus,Sunday,900
-September 2019,25,Bus,Sunday,900
-September 2019,27,Bus,Sunday,900
-September 2019,28,Bus,Sunday,900
-September 2019,CA,Cable Car,Sunday,900
-September 2019,PH,Cable Car,Sunday,900
-September 2019,PM,Cable Car,Sunday,900
-September 2019,F,Light Rail,Sunday,900
-September 2019,FBUS,Light Rail,Sunday,900
-September 2019,J,Light Rail,Sunday,900
-September 2019,K,Light Rail,Sunday,900
-September 2019,L,Light Rail,Sunday,900
-September 2019,M,Light Rail,Sunday,900
-September 2019,N,Light Rail,Sunday,900
-September 2019,T,Light Rail,Sunday,900
-September 2019,14R,Bus,Sunday,900
-September 2019,1X,Bus,Sunday,900
-September 2019,28R,Bus,Sunday,900
-September 2019,29,Bus,Sunday,900
-September 2019,30,Bus,Sunday,900
-September 2019,30X,Bus,Sunday,900
-September 2019,31,Bus,Sunday,900
-September 2019,33,Bus,Sunday,900
-September 2019,35,Bus,Sunday,900
-September 2019,36,Bus,Sunday,900
-September 2019,37,Bus,Sunday,900
-September 2019,38,Bus,Sunday,900
-September 2019,38R,Bus,Sunday,900
-September 2019,39,Bus,Sunday,900
-September 2019,43,Bus,Sunday,900
-September 2019,44,Bus,Sunday,900
-September 2019,1,Bus,Weekday,900
-September 2019,12,Bus,Weekday,900
-September 2019,14,Bus,Weekday,900
-September 2019,15,Bus,Weekday,900
-September 2019,18,Bus,Weekday,900
-September 2019,19,Bus,Weekday,900
-September 2019,2,Bus,Weekday,900
-September 2019,22,Bus,Weekday,900
-September 2019,23,Bus,Weekday,900
-September 2019,24,Bus,Weekday,900
-September 2019,25,Bus,Weekday,900
-September 2019,27,Bus,Weekday,900
-September 2019,28,Bus,Weekday,900
-September 2019,CA,Cable Car,Weekday,900
-September 2019,PH,Cable Car,Weekday,900
-September 2019,PM,Cable Car,Weekday,900
-September 2019,F,Light Rail,Weekday,900
-September 2019,FBUS,Light Rail,Weekday,900
-September 2019,J,Light Rail,Weekday,900
-September 2019,K,Light Rail,Weekday,900
-September 2019,L,Light Rail,Weekday,900
-September 2019,M,Light Rail,Weekday,900
-September 2019,N,Light Rail,Weekday,900
-September 2019,T,Light Rail,Weekday,900
-September 2019,14R,Bus,Weekday,900
-September 2019,1X,Bus,Weekday,900
-September 2019,28R,Bus,Weekday,900
-September 2019,29,Bus,Weekday,900
-September 2019,30,Bus,Weekday,900
-September 2019,30X,Bus,Weekday,900
-September 2019,31,Bus,Weekday,900
-September 2019,33,Bus,Weekday,900
-September 2019,35,Bus,Weekday,900
-September 2019,36,Bus,Weekday,900
-September 2019,37,Bus,Weekday,900
-September 2019,38,Bus,Weekday,900
-September 2019,38R,Bus,Weekday,900
-September 2019,39,Bus,Weekday,900
-September 2019,43,Bus,Weekday,900
-September 2019,44,Bus,Weekday,900
-September 2019,1,Bus,Saturday,900
-September 2019,12,Bus,Saturday,900
-September 2019,14,Bus,Saturday,900
-September 2019,15,Bus,Saturday,900
-September 2019,18,Bus,Saturday,900
-September 2019,19,Bus,Saturday,900
-September 2019,2,Bus,Saturday,900
-September 2019,22,Bus,Saturday,900
-September 2019,23,Bus,Saturday,900
-September 2019,24,Bus,Saturday,900
-September 2019,25,Bus,Saturday,900
-September 2019,27,Bus,Saturday,900
-September 2019,28,Bus,Saturday,900
-September 2019,CA,Cable Car,Saturday,900
-September 2019,PH,Cable Car,Saturday,900
-September 2019,PM,Cable Car,Saturday,900
-September 2019,F,Light Rail,Saturday,900
-September 2019,FBUS,Light Rail,Saturday,900
-September 2019,J,Light Rail,Saturday,900
-September 2019,K,Light Rail,Saturday,900
-September 2019,L,Light Rail,Saturday,900
-September 2019,M,Light Rail,Saturday,900
-September 2019,N,Light Rail,Saturday,900
-September 2019,T,Light Rail,Saturday,900
-September 2019,14R,Bus,Saturday,900
-September 2019,1X,Bus,Saturday,900
-September 2019,28R,Bus,Saturday,900
-September 2019,29,Bus,Saturday,900
-September 2019,30,Bus,Saturday,900
-September 2019,30X,Bus,Saturday,900
-September 2019,31,Bus,Saturday,900
-September 2019,33,Bus,Saturday,900
-September 2019,35,Bus,Saturday,900
-September 2019,36,Bus,Saturday,900
-September 2019,37,Bus,Saturday,900
-September 2019,38,Bus,Saturday,900
-September 2019,38R,Bus,Saturday,900
-September 2019,39,Bus,Saturday,900
-September 2019,43,Bus,Saturday,900
-September 2019,44,Bus,Saturday,900
+September 2019,1,Bus,Sunday,"2,251"
+September 2019,12,Bus,Sunday,"2,389"
+September 2019,14,Bus,Sunday,"2,363"
+September 2019,15,Bus,Sunday,"2,570"
+September 2019,18,Bus,Sunday,"2,339"
+September 2019,19,Bus,Sunday,"2,654"
+September 2019,2,Bus,Sunday,"2,126"
+September 2019,22,Bus,Sunday,"2,393"
+September 2019,23,Bus,Sunday,"2,409"
+September 2019,24,Bus,Sunday,"2,673"
+September 2019,25,Bus,Sunday,"2,261"
+September 2019,27,Bus,Sunday,"2,595"
+September 2019,28,Bus,Sunday,"2,252"
+September 2019,CA,Cable Car,Sunday,"1,977"
+September 2019,PH,Cable Car,Sunday,"2,072"
+September 2019,PM,Cable Car,Sunday,"1,820"
+September 2019,F,Light Rail,Sunday,"2,202"
+September 2019,FBUS,Light Rail,Sunday,"2,044"
+September 2019,J,Light Rail,Sunday,"2,330"
+September 2019,K,Light Rail,Sunday,"2,163"
+September 2019,L,Light Rail,Sunday,"2,299"
+September 2019,M,Light Rail,Sunday,"2,079"
+September 2019,N,Light Rail,Sunday,"2,228"
+September 2019,T,Light Rail,Sunday,"2,250"
+September 2019,14R,Bus,Sunday,"2,248"
+September 2019,1X,Bus,Sunday,"2,190"
+September 2019,28R,Bus,Sunday,"2,137"
+September 2019,29,Bus,Sunday,"2,440"
+September 2019,30,Bus,Sunday,"2,352"
+September 2019,30X,Bus,Sunday,"2,052"
+September 2019,31,Bus,Sunday,"2,191"
+September 2019,33,Bus,Sunday,"2,598"
+September 2019,35,Bus,Sunday,"2,542"
+September 2019,36,Bus,Sunday,"2,430"
+September 2019,37,Bus,Sunday,"2,445"
+September 2019,38,Bus,Sunday,"2,382"
+September 2019,38R,Bus,Sunday,"2,185"
+September 2019,39,Bus,Sunday,"2,457"
+September 2019,43,Bus,Sunday,"2,424"
+September 2019,44,Bus,Sunday,"2,617"
+September 2019,1,Bus,Weekday,"2,698"
+September 2019,12,Bus,Weekday,"2,784"
+September 2019,14,Bus,Weekday,"2,810"
+September 2019,15,Bus,Weekday,"2,989"
+September 2019,18,Bus,Weekday,"2,706"
+September 2019,19,Bus,Weekday,"3,221"
+September 2019,2,Bus,Weekday,"2,515"
+September 2019,22,Bus,Weekday,"2,688"
+September 2019,23,Bus,Weekday,"2,742"
+September 2019,24,Bus,Weekday,"3,153"
+September 2019,25,Bus,Weekday,"2,711"
+September 2019,27,Bus,Weekday,"3,012"
+September 2019,28,Bus,Weekday,"2,705"
+September 2019,CA,Cable Car,Weekday,"2,314"
+September 2019,PH,Cable Car,Weekday,"2,416"
+September 2019,PM,Cable Car,Weekday,"2,084"
+September 2019,F,Light Rail,Weekday,"2,591"
+September 2019,FBUS,Light Rail,Weekday,"2,537"
+September 2019,J,Light Rail,Weekday,"2,620"
+September 2019,K,Light Rail,Weekday,"2,518"
+September 2019,L,Light Rail,Weekday,"2,707"
+September 2019,M,Light Rail,Weekday,"2,392"
+September 2019,N,Light Rail,Weekday,"2,631"
+September 2019,T,Light Rail,Weekday,"2,631"
+September 2019,14R,Bus,Weekday,"2,611"
+September 2019,1X,Bus,Weekday,"2,474"
+September 2019,28R,Bus,Weekday,"2,479"
+September 2019,29,Bus,Weekday,"2,886"
+September 2019,30,Bus,Weekday,"2,727"
+September 2019,30X,Bus,Weekday,"2,447"
+September 2019,31,Bus,Weekday,"2,647"
+September 2019,33,Bus,Weekday,"3,016"
+September 2019,35,Bus,Weekday,"2,866"
+September 2019,36,Bus,Weekday,"2,991"
+September 2019,37,Bus,Weekday,"2,873"
+September 2019,38,Bus,Weekday,"2,742"
+September 2019,38R,Bus,Weekday,"2,620"
+September 2019,39,Bus,Weekday,"2,813"
+September 2019,43,Bus,Weekday,"2,904"
+September 2019,44,Bus,Weekday,"3,044"
+September 2019,1,Bus,Saturday,"2,816"
+September 2019,12,Bus,Saturday,"2,896"
+September 2019,14,Bus,Saturday,"2,929"
+September 2019,15,Bus,Saturday,"3,135"
+September 2019,18,Bus,Saturday,"2,784"
+September 2019,19,Bus,Saturday,"3,143"
+September 2019,2,Bus,Saturday,"2,532"
+September 2019,22,Bus,Saturday,"2,765"
+September 2019,23,Bus,Saturday,"2,924"
+September 2019,24,Bus,Saturday,"3,184"
+September 2019,25,Bus,Saturday,"2,739"
+September 2019,27,Bus,Saturday,"3,024"
+September 2019,28,Bus,Saturday,"2,657"
+September 2019,CA,Cable Car,Saturday,"2,246"
+September 2019,PH,Cable Car,Saturday,"2,368"
+September 2019,PM,Cable Car,Saturday,"2,128"
+September 2019,F,Light Rail,Saturday,"2,671"
+September 2019,FBUS,Light Rail,Saturday,"2,554"
+September 2019,J,Light Rail,Saturday,"2,700"
+September 2019,K,Light Rail,Saturday,"2,508"
+September 2019,L,Light Rail,Saturday,"2,763"
+September 2019,M,Light Rail,Saturday,"2,392"
+September 2019,N,Light Rail,Saturday,"2,538"
+September 2019,T,Light Rail,Saturday,"2,719"
+September 2019,14R,Bus,Saturday,"2,613"
+September 2019,1X,Bus,Saturday,"2,483"
+September 2019,28R,Bus,Saturday,"2,461"
+September 2019,29,Bus,Saturday,"2,844"
+September 2019,30,Bus,Saturday,"2,868"
+September 2019,30X,Bus,Saturday,"2,418"
+September 2019,31,Bus,Saturday,"2,668"
+September 2019,33,Bus,Saturday,"2,975"
+September 2019,35,Bus,Saturday,"2,930"
+September 2019,36,Bus,Saturday,"2,983"
+September 2019,37,Bus,Saturday,"2,826"
+September 2019,38,Bus,Saturday,"2,856"
+September 2019,38R,Bus,Saturday,"2,706"
+September 2019,39,Bus,Saturday,"2,916"
+September 2019,43,Bus,Saturday,"2,945"
+September 2019,44,Bus,Saturday,"3,188"

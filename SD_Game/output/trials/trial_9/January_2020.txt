@@ -1,68 +1,68 @@
 Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
-January 2020,1,Bus,Weekday,900
-January 2020,12,Bus,Weekday,900
-January 2020,14,Bus,Weekday,900
-January 2020,15,Bus,Weekday,900
-January 2020,18,Bus,Weekday,900
-January 2020,19,Bus,Weekday,900
-January 2020,2,Bus,Weekday,900
-January 2020,22,Bus,Weekday,900
-January 2020,23,Bus,Weekday,900
-January 2020,24,Bus,Weekday,900
-January 2020,25,Bus,Weekday,900
-January 2020,27,Bus,Weekday,900
-January 2020,28,Bus,Weekday,900
-January 2020,29,Bus,Weekday,900
-January 2020,30,Bus,Weekday,900
-January 2020,31,Bus,Weekday,900
-January 2020,33,Bus,Weekday,900
-January 2020,35,Bus,Weekday,900
-January 2020,36,Bus,Weekday,900
-January 2020,37,Bus,Weekday,900
-January 2020,38,Bus,Weekday,900
-January 2020,39,Bus,Weekday,900
-January 2020,43,Bus,Weekday,900
-January 2020,44,Bus,Weekday,900
-January 2020,45,Bus,Weekday,900
-January 2020,48,Bus,Weekday,900
-January 2020,49,Bus,Weekday,900
-January 2020,5,Bus,Weekday,900
-January 2020,52,Bus,Weekday,900
-January 2020,54,Bus,Weekday,900
-January 2020,55,Bus,Weekday,900
-January 2020,56,Bus,Weekday,900
-January 2020,57,Bus,Weekday,900
-January 2020,58,Bus,Weekday,900
-January 2020,6,Bus,Weekday,900
-January 2020,66,Bus,Weekday,900
-January 2020,67,Bus,Weekday,900
-January 2020,7,Bus,Weekday,900
-January 2020,8,Bus,Weekday,900
-January 2020,9,Bus,Weekday,900
-January 2020,90,Bus,Weekday,900
-January 2020,91,Bus,Weekday,900
-January 2020,14R,Bus,Weekday,900
-January 2020,1X,Bus,Weekday,900
-January 2020,28R,Bus,Weekday,900
-January 2020,30X,Bus,Weekday,900
-January 2020,38R,Bus,Weekday,900
-January 2020,5R,Bus,Weekday,900
-January 2020,8AX,Bus,Weekday,900
-January 2020,8BX,Bus,Weekday,900
-January 2020,9R,Bus,Weekday,900
-January 2020,KBUS,Bus,Weekday,900
-January 2020,LOWL,Bus,Weekday,900
-January 2020,NBUS,Bus,Weekday,900
-January 2020,NOWL,Bus,Weekday,900
-January 2020,TBUS,Bus,Weekday,900
-January 2020,CA,Cable Car,Weekday,900
-January 2020,PH,Cable Car,Weekday,900
-January 2020,PM,Cable Car,Weekday,900
-January 2020,F,Light Rail,Weekday,900
-January 2020,FBUS,Light Rail,Weekday,900
-January 2020,J,Light Rail,Weekday,900
-January 2020,K,Light Rail,Weekday,900
-January 2020,L,Light Rail,Weekday,900
-January 2020,M,Light Rail,Weekday,900
-January 2020,N,Light Rail,Weekday,900
-January 2020,T,Light Rail,Weekday,900
+January 2020,1,Bus,Weekday,"1,628"
+January 2020,12,Bus,Weekday,"1,687"
+January 2020,14,Bus,Weekday,"1,859"
+January 2020,15,Bus,Weekday,"1,906"
+January 2020,18,Bus,Weekday,"1,700"
+January 2020,19,Bus,Weekday,"1,928"
+January 2020,2,Bus,Weekday,"1,624"
+January 2020,22,Bus,Weekday,"1,679"
+January 2020,23,Bus,Weekday,"1,674"
+January 2020,24,Bus,Weekday,"1,811"
+January 2020,25,Bus,Weekday,"1,757"
+January 2020,27,Bus,Weekday,"1,885"
+January 2020,28,Bus,Weekday,"1,693"
+January 2020,29,Bus,Weekday,"1,823"
+January 2020,30,Bus,Weekday,"1,634"
+January 2020,31,Bus,Weekday,"1,782"
+January 2020,33,Bus,Weekday,"1,784"
+January 2020,35,Bus,Weekday,"1,891"
+January 2020,36,Bus,Weekday,"1,946"
+January 2020,37,Bus,Weekday,"1,921"
+January 2020,38,Bus,Weekday,"1,751"
+January 2020,39,Bus,Weekday,"1,762"
+January 2020,43,Bus,Weekday,"1,790"
+January 2020,44,Bus,Weekday,"1,808"
+January 2020,45,Bus,Weekday,"1,665"
+January 2020,48,Bus,Weekday,"1,785"
+January 2020,49,Bus,Weekday,"1,888"
+January 2020,5,Bus,Weekday,"1,818"
+January 2020,52,Bus,Weekday,"1,699"
+January 2020,54,Bus,Weekday,"2,274"
+January 2020,55,Bus,Weekday,"1,683"
+January 2020,56,Bus,Weekday,"1,909"
+January 2020,57,Bus,Weekday,"1,891"
+January 2020,58,Bus,Weekday,"1,539"
+January 2020,6,Bus,Weekday,"1,691"
+January 2020,66,Bus,Weekday,"1,784"
+January 2020,67,Bus,Weekday,"1,858"
+January 2020,7,Bus,Weekday,"1,671"
+January 2020,8,Bus,Weekday,"1,608"
+January 2020,9,Bus,Weekday,"1,712"
+January 2020,90,Bus,Weekday,"1,569"
+January 2020,91,Bus,Weekday,"1,910"
+January 2020,14R,Bus,Weekday,"1,777"
+January 2020,1X,Bus,Weekday,"1,490"
+January 2020,28R,Bus,Weekday,"1,555"
+January 2020,30X,Bus,Weekday,"1,521"
+January 2020,38R,Bus,Weekday,"1,551"
+January 2020,5R,Bus,Weekday,"1,588"
+January 2020,8AX,Bus,Weekday,"1,680"
+January 2020,8BX,Bus,Weekday,"1,722"
+January 2020,9R,Bus,Weekday,"1,601"
+January 2020,KBUS,Bus,Weekday,"1,667"
+January 2020,LOWL,Bus,Weekday,"1,771"
+January 2020,NBUS,Bus,Weekday,"1,664"
+January 2020,NOWL,Bus,Weekday,"1,533"
+January 2020,TBUS,Bus,Weekday,"1,511"
+January 2020,CA,Cable Car,Weekday,"1,501"
+January 2020,PH,Cable Car,Weekday,"1,586"
+January 2020,PM,Cable Car,Weekday,"1,367"
+January 2020,F,Light Rail,Weekday,"1,580"
+January 2020,FBUS,Light Rail,Weekday,"1,622"
+January 2020,J,Light Rail,Weekday,"1,523"
+January 2020,K,Light Rail,Weekday,"1,655"
+January 2020,L,Light Rail,Weekday,"1,670"
+January 2020,M,Light Rail,Weekday,"1,367"
+January 2020,N,Light Rail,Weekday,"1,631"
+January 2020,T,Light Rail,Weekday,"1,616"

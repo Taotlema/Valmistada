@@ -1,121 +1,121 @@
 Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
-November 2019,1,Bus,Weekday,900
-November 2019,12,Bus,Weekday,900
-November 2019,14,Bus,Weekday,900
-November 2019,15,Bus,Weekday,900
-November 2019,18,Bus,Weekday,900
-November 2019,19,Bus,Weekday,900
-November 2019,2,Bus,Weekday,900
-November 2019,22,Bus,Weekday,900
-November 2019,23,Bus,Weekday,900
-November 2019,24,Bus,Weekday,900
-November 2019,25,Bus,Weekday,900
-November 2019,27,Bus,Weekday,900
-November 2019,28,Bus,Weekday,900
-November 2019,CA,Cable Car,Weekday,900
-November 2019,PH,Cable Car,Weekday,900
-November 2019,PM,Cable Car,Weekday,900
-November 2019,F,Light Rail,Weekday,900
-November 2019,FBUS,Light Rail,Weekday,900
-November 2019,J,Light Rail,Weekday,900
-November 2019,K,Light Rail,Weekday,900
-November 2019,L,Light Rail,Weekday,900
-November 2019,M,Light Rail,Weekday,900
-November 2019,N,Light Rail,Weekday,900
-November 2019,T,Light Rail,Weekday,900
-November 2019,14R,Bus,Weekday,900
-November 2019,1X,Bus,Weekday,900
-November 2019,28R,Bus,Weekday,900
-November 2019,29,Bus,Weekday,900
-November 2019,30,Bus,Weekday,900
-November 2019,30X,Bus,Weekday,900
-November 2019,31,Bus,Weekday,900
-November 2019,33,Bus,Weekday,900
-November 2019,35,Bus,Weekday,900
-November 2019,36,Bus,Weekday,900
-November 2019,37,Bus,Weekday,900
-November 2019,38,Bus,Weekday,900
-November 2019,38R,Bus,Weekday,900
-November 2019,39,Bus,Weekday,900
-November 2019,43,Bus,Weekday,900
-November 2019,44,Bus,Weekday,900
-November 2019,1,Bus,Saturday,900
-November 2019,12,Bus,Saturday,900
-November 2019,14,Bus,Saturday,900
-November 2019,15,Bus,Saturday,900
-November 2019,18,Bus,Saturday,900
-November 2019,19,Bus,Saturday,900
-November 2019,2,Bus,Saturday,900
-November 2019,22,Bus,Saturday,900
-November 2019,23,Bus,Saturday,900
-November 2019,24,Bus,Saturday,900
-November 2019,25,Bus,Saturday,900
-November 2019,27,Bus,Saturday,900
-November 2019,28,Bus,Saturday,900
-November 2019,CA,Cable Car,Saturday,900
-November 2019,PH,Cable Car,Saturday,900
-November 2019,PM,Cable Car,Saturday,900
-November 2019,F,Light Rail,Saturday,900
-November 2019,FBUS,Light Rail,Saturday,900
-November 2019,J,Light Rail,Saturday,900
-November 2019,K,Light Rail,Saturday,900
-November 2019,L,Light Rail,Saturday,900
-November 2019,M,Light Rail,Saturday,900
-November 2019,N,Light Rail,Saturday,900
-November 2019,T,Light Rail,Saturday,900
-November 2019,14R,Bus,Saturday,900
-November 2019,1X,Bus,Saturday,900
-November 2019,28R,Bus,Saturday,900
-November 2019,29,Bus,Saturday,900
-November 2019,30,Bus,Saturday,900
-November 2019,30X,Bus,Saturday,900
-November 2019,31,Bus,Saturday,900
-November 2019,33,Bus,Saturday,900
-November 2019,35,Bus,Saturday,900
-November 2019,36,Bus,Saturday,900
-November 2019,37,Bus,Saturday,900
-November 2019,38,Bus,Saturday,900
-November 2019,38R,Bus,Saturday,900
-November 2019,39,Bus,Saturday,900
-November 2019,43,Bus,Saturday,900
-November 2019,44,Bus,Saturday,900
-November 2019,1,Bus,Sunday,900
-November 2019,12,Bus,Sunday,900
-November 2019,14,Bus,Sunday,900
-November 2019,15,Bus,Sunday,900
-November 2019,18,Bus,Sunday,900
-November 2019,19,Bus,Sunday,900
-November 2019,2,Bus,Sunday,900
-November 2019,22,Bus,Sunday,900
-November 2019,23,Bus,Sunday,900
-November 2019,24,Bus,Sunday,900
-November 2019,25,Bus,Sunday,900
-November 2019,27,Bus,Sunday,900
-November 2019,28,Bus,Sunday,900
-November 2019,CA,Cable Car,Sunday,900
-November 2019,PH,Cable Car,Sunday,900
-November 2019,PM,Cable Car,Sunday,900
-November 2019,F,Light Rail,Sunday,900
-November 2019,FBUS,Light Rail,Sunday,900
-November 2019,J,Light Rail,Sunday,900
-November 2019,K,Light Rail,Sunday,900
-November 2019,L,Light Rail,Sunday,900
-November 2019,M,Light Rail,Sunday,900
-November 2019,N,Light Rail,Sunday,900
-November 2019,T,Light Rail,Sunday,900
-November 2019,14R,Bus,Sunday,900
-November 2019,1X,Bus,Sunday,900
-November 2019,28R,Bus,Sunday,900
-November 2019,29,Bus,Sunday,900
-November 2019,30,Bus,Sunday,900
-November 2019,30X,Bus,Sunday,900
-November 2019,31,Bus,Sunday,900
-November 2019,33,Bus,Sunday,900
-November 2019,35,Bus,Sunday,900
-November 2019,36,Bus,Sunday,900
-November 2019,37,Bus,Sunday,900
-November 2019,38,Bus,Sunday,900
-November 2019,38R,Bus,Sunday,900
-November 2019,39,Bus,Sunday,900
-November 2019,43,Bus,Sunday,900
-November 2019,44,Bus,Sunday,900
+November 2019,1,Bus,Weekday,"2,058"
+November 2019,12,Bus,Weekday,"2,135"
+November 2019,14,Bus,Weekday,"2,085"
+November 2019,15,Bus,Weekday,"2,323"
+November 2019,18,Bus,Weekday,"2,052"
+November 2019,19,Bus,Weekday,"2,391"
+November 2019,2,Bus,Weekday,"1,886"
+November 2019,22,Bus,Weekday,"2,048"
+November 2019,23,Bus,Weekday,"2,069"
+November 2019,24,Bus,Weekday,"2,433"
+November 2019,25,Bus,Weekday,"2,070"
+November 2019,27,Bus,Weekday,"2,245"
+November 2019,28,Bus,Weekday,"2,069"
+November 2019,CA,Cable Car,Weekday,"1,748"
+November 2019,PH,Cable Car,Weekday,"1,816"
+November 2019,PM,Cable Car,Weekday,"1,585"
+November 2019,F,Light Rail,Weekday,"1,994"
+November 2019,FBUS,Light Rail,Weekday,"1,901"
+November 2019,J,Light Rail,Weekday,"1,957"
+November 2019,K,Light Rail,Weekday,"1,907"
+November 2019,L,Light Rail,Weekday,"2,064"
+November 2019,M,Light Rail,Weekday,"1,854"
+November 2019,N,Light Rail,Weekday,"1,979"
+November 2019,T,Light Rail,Weekday,"2,004"
+November 2019,14R,Bus,Weekday,"2,017"
+November 2019,1X,Bus,Weekday,"1,937"
+November 2019,28R,Bus,Weekday,"1,914"
+November 2019,29,Bus,Weekday,"2,200"
+November 2019,30,Bus,Weekday,"2,093"
+November 2019,30X,Bus,Weekday,"1,827"
+November 2019,31,Bus,Weekday,"2,085"
+November 2019,33,Bus,Weekday,"2,279"
+November 2019,35,Bus,Weekday,"2,179"
+November 2019,36,Bus,Weekday,"2,297"
+November 2019,37,Bus,Weekday,"2,194"
+November 2019,38,Bus,Weekday,"2,109"
+November 2019,38R,Bus,Weekday,"1,995"
+November 2019,39,Bus,Weekday,"2,151"
+November 2019,43,Bus,Weekday,"2,202"
+November 2019,44,Bus,Weekday,"2,333"
+November 2019,1,Bus,Saturday,"2,032"
+November 2019,12,Bus,Saturday,"2,069"
+November 2019,14,Bus,Saturday,"2,144"
+November 2019,15,Bus,Saturday,"2,230"
+November 2019,18,Bus,Saturday,"2,026"
+November 2019,19,Bus,Saturday,"2,400"
+November 2019,2,Bus,Saturday,"1,886"
+November 2019,22,Bus,Saturday,"1,979"
+November 2019,23,Bus,Saturday,"2,078"
+November 2019,24,Bus,Saturday,"2,289"
+November 2019,25,Bus,Saturday,"2,069"
+November 2019,27,Bus,Saturday,"2,215"
+November 2019,28,Bus,Saturday,"2,078"
+November 2019,CA,Cable Car,Saturday,"1,722"
+November 2019,PH,Cable Car,Saturday,"1,838"
+November 2019,PM,Cable Car,Saturday,"1,515"
+November 2019,F,Light Rail,Saturday,"1,976"
+November 2019,FBUS,Light Rail,Saturday,"1,840"
+November 2019,J,Light Rail,Saturday,"1,970"
+November 2019,K,Light Rail,Saturday,"1,925"
+November 2019,L,Light Rail,Saturday,"2,035"
+November 2019,M,Light Rail,Saturday,"1,856"
+November 2019,N,Light Rail,Saturday,"1,972"
+November 2019,T,Light Rail,Saturday,"2,007"
+November 2019,14R,Bus,Saturday,"1,987"
+November 2019,1X,Bus,Saturday,"1,898"
+November 2019,28R,Bus,Saturday,"1,837"
+November 2019,29,Bus,Saturday,"2,190"
+November 2019,30,Bus,Saturday,"2,087"
+November 2019,30X,Bus,Saturday,"1,816"
+November 2019,31,Bus,Saturday,"2,046"
+November 2019,33,Bus,Saturday,"2,204"
+November 2019,35,Bus,Saturday,"2,188"
+November 2019,36,Bus,Saturday,"2,262"
+November 2019,37,Bus,Saturday,"2,226"
+November 2019,38,Bus,Saturday,"2,061"
+November 2019,38R,Bus,Saturday,"1,913"
+November 2019,39,Bus,Saturday,"2,127"
+November 2019,43,Bus,Saturday,"2,228"
+November 2019,44,Bus,Saturday,"2,356"
+November 2019,1,Bus,Sunday,"1,759"
+November 2019,12,Bus,Sunday,"1,778"
+November 2019,14,Bus,Sunday,"1,847"
+November 2019,15,Bus,Sunday,"1,942"
+November 2019,18,Bus,Sunday,"1,798"
+November 2019,19,Bus,Sunday,"2,048"
+November 2019,2,Bus,Sunday,"1,665"
+November 2019,22,Bus,Sunday,"1,729"
+November 2019,23,Bus,Sunday,"1,834"
+November 2019,24,Bus,Sunday,"2,006"
+November 2019,25,Bus,Sunday,"1,791"
+November 2019,27,Bus,Sunday,"1,988"
+November 2019,28,Bus,Sunday,"1,728"
+November 2019,CA,Cable Car,Sunday,"1,528"
+November 2019,PH,Cable Car,Sunday,"1,538"
+November 2019,PM,Cable Car,Sunday,"1,406"
+November 2019,F,Light Rail,Sunday,"1,677"
+November 2019,FBUS,Light Rail,Sunday,"1,661"
+November 2019,J,Light Rail,Sunday,"1,706"
+November 2019,K,Light Rail,Sunday,"1,574"
+November 2019,L,Light Rail,Sunday,"1,784"
+November 2019,M,Light Rail,Sunday,"1,530"
+November 2019,N,Light Rail,Sunday,"1,658"
+November 2019,T,Light Rail,Sunday,"1,684"
+November 2019,14R,Bus,Sunday,"1,732"
+November 2019,1X,Bus,Sunday,"1,644"
+November 2019,28R,Bus,Sunday,"1,655"
+November 2019,29,Bus,Sunday,"1,958"
+November 2019,30,Bus,Sunday,"1,844"
+November 2019,30X,Bus,Sunday,"1,585"
+November 2019,31,Bus,Sunday,"1,746"
+November 2019,33,Bus,Sunday,"1,977"
+November 2019,35,Bus,Sunday,"1,818"
+November 2019,36,Bus,Sunday,"1,901"
+November 2019,37,Bus,Sunday,"1,862"
+November 2019,38,Bus,Sunday,"1,802"
+November 2019,38R,Bus,Sunday,"1,724"
+November 2019,39,Bus,Sunday,"1,821"
+November 2019,43,Bus,Sunday,"1,941"
+November 2019,44,Bus,Sunday,"1,946"

@@ -1,202 +1,202 @@
 Month,Route,Service Category,Service Day of the Week,Average Daily Boardings
-June 2019,1,Bus,Saturday,900
-June 2019,12,Bus,Saturday,900
-June 2019,14,Bus,Saturday,900
-June 2019,15,Bus,Saturday,900
-June 2019,18,Bus,Saturday,900
-June 2019,19,Bus,Saturday,900
-June 2019,2,Bus,Saturday,900
-June 2019,22,Bus,Saturday,900
-June 2019,23,Bus,Saturday,900
-June 2019,24,Bus,Saturday,900
-June 2019,25,Bus,Saturday,900
-June 2019,27,Bus,Saturday,900
-June 2019,28,Bus,Saturday,900
-June 2019,29,Bus,Saturday,900
-June 2019,30,Bus,Saturday,900
-June 2019,31,Bus,Saturday,900
-June 2019,33,Bus,Saturday,900
-June 2019,35,Bus,Saturday,900
-June 2019,36,Bus,Saturday,900
-June 2019,37,Bus,Saturday,900
-June 2019,38,Bus,Saturday,900
-June 2019,39,Bus,Saturday,900
-June 2019,43,Bus,Saturday,900
-June 2019,44,Bus,Saturday,900
-June 2019,45,Bus,Saturday,900
-June 2019,48,Bus,Saturday,900
-June 2019,49,Bus,Saturday,900
-June 2019,5,Bus,Saturday,900
-June 2019,52,Bus,Saturday,900
-June 2019,54,Bus,Saturday,900
-June 2019,55,Bus,Saturday,900
-June 2019,56,Bus,Saturday,900
-June 2019,57,Bus,Saturday,900
-June 2019,58,Bus,Saturday,900
-June 2019,6,Bus,Saturday,900
-June 2019,66,Bus,Saturday,900
-June 2019,67,Bus,Saturday,900
-June 2019,7,Bus,Saturday,900
-June 2019,8,Bus,Saturday,900
-June 2019,9,Bus,Saturday,900
-June 2019,90,Bus,Saturday,900
-June 2019,91,Bus,Saturday,900
-June 2019,14R,Bus,Saturday,900
-June 2019,1X,Bus,Saturday,900
-June 2019,28R,Bus,Saturday,900
-June 2019,30X,Bus,Saturday,900
-June 2019,38R,Bus,Saturday,900
-June 2019,5R,Bus,Saturday,900
-June 2019,8AX,Bus,Saturday,900
-June 2019,8BX,Bus,Saturday,900
-June 2019,9R,Bus,Saturday,900
-June 2019,KBUS,Bus,Saturday,900
-June 2019,LOWL,Bus,Saturday,900
-June 2019,NBUS,Bus,Saturday,900
-June 2019,NOWL,Bus,Saturday,900
-June 2019,TBUS,Bus,Saturday,900
-June 2019,CA,Cable Car,Saturday,900
-June 2019,PH,Cable Car,Saturday,900
-June 2019,PM,Cable Car,Saturday,900
-June 2019,F,Light Rail,Saturday,900
-June 2019,FBUS,Light Rail,Saturday,900
-June 2019,J,Light Rail,Saturday,900
-June 2019,K,Light Rail,Saturday,900
-June 2019,L,Light Rail,Saturday,900
-June 2019,M,Light Rail,Saturday,900
-June 2019,N,Light Rail,Saturday,900
-June 2019,T,Light Rail,Saturday,900
-June 2019,1,Bus,Sunday,900
-June 2019,12,Bus,Sunday,900
-June 2019,14,Bus,Sunday,900
-June 2019,15,Bus,Sunday,900
-June 2019,18,Bus,Sunday,900
-June 2019,19,Bus,Sunday,900
-June 2019,2,Bus,Sunday,900
-June 2019,22,Bus,Sunday,900
-June 2019,23,Bus,Sunday,900
-June 2019,24,Bus,Sunday,900
-June 2019,25,Bus,Sunday,900
-June 2019,27,Bus,Sunday,900
-June 2019,28,Bus,Sunday,900
-June 2019,29,Bus,Sunday,900
-June 2019,30,Bus,Sunday,900
-June 2019,31,Bus,Sunday,900
-June 2019,33,Bus,Sunday,900
-June 2019,35,Bus,Sunday,900
-June 2019,36,Bus,Sunday,900
-June 2019,37,Bus,Sunday,900
-June 2019,38,Bus,Sunday,900
-June 2019,39,Bus,Sunday,900
-June 2019,43,Bus,Sunday,900
-June 2019,44,Bus,Sunday,900
-June 2019,45,Bus,Sunday,900
-June 2019,48,Bus,Sunday,900
-June 2019,49,Bus,Sunday,900
-June 2019,5,Bus,Sunday,900
-June 2019,52,Bus,Sunday,900
-June 2019,54,Bus,Sunday,900
-June 2019,55,Bus,Sunday,900
-June 2019,56,Bus,Sunday,900
-June 2019,57,Bus,Sunday,900
-June 2019,58,Bus,Sunday,900
-June 2019,6,Bus,Sunday,900
-June 2019,66,Bus,Sunday,900
-June 2019,67,Bus,Sunday,900
-June 2019,7,Bus,Sunday,900
-June 2019,8,Bus,Sunday,900
-June 2019,9,Bus,Sunday,900
-June 2019,90,Bus,Sunday,900
-June 2019,91,Bus,Sunday,900
-June 2019,14R,Bus,Sunday,900
-June 2019,1X,Bus,Sunday,900
-June 2019,28R,Bus,Sunday,900
-June 2019,30X,Bus,Sunday,900
-June 2019,38R,Bus,Sunday,900
-June 2019,5R,Bus,Sunday,900
-June 2019,8AX,Bus,Sunday,900
-June 2019,8BX,Bus,Sunday,900
-June 2019,9R,Bus,Sunday,900
-June 2019,KBUS,Bus,Sunday,900
-June 2019,LOWL,Bus,Sunday,900
-June 2019,NBUS,Bus,Sunday,900
-June 2019,NOWL,Bus,Sunday,900
-June 2019,TBUS,Bus,Sunday,900
-June 2019,CA,Cable Car,Sunday,900
-June 2019,PH,Cable Car,Sunday,900
-June 2019,PM,Cable Car,Sunday,900
-June 2019,F,Light Rail,Sunday,900
-June 2019,FBUS,Light Rail,Sunday,900
-June 2019,J,Light Rail,Sunday,900
-June 2019,K,Light Rail,Sunday,900
-June 2019,L,Light Rail,Sunday,900
-June 2019,M,Light Rail,Sunday,900
-June 2019,N,Light Rail,Sunday,900
-June 2019,T,Light Rail,Sunday,900
-June 2019,1,Bus,Weekday,900
-June 2019,12,Bus,Weekday,900
-June 2019,14,Bus,Weekday,900
-June 2019,15,Bus,Weekday,900
-June 2019,18,Bus,Weekday,900
-June 2019,19,Bus,Weekday,900
-June 2019,2,Bus,Weekday,900
-June 2019,22,Bus,Weekday,900
-June 2019,23,Bus,Weekday,900
-June 2019,24,Bus,Weekday,900
-June 2019,25,Bus,Weekday,900
-June 2019,27,Bus,Weekday,900
-June 2019,28,Bus,Weekday,900
-June 2019,29,Bus,Weekday,900
-June 2019,30,Bus,Weekday,900
-June 2019,31,Bus,Weekday,900
-June 2019,33,Bus,Weekday,900
-June 2019,35,Bus,Weekday,900
-June 2019,36,Bus,Weekday,900
-June 2019,37,Bus,Weekday,900
-June 2019,38,Bus,Weekday,900
-June 2019,39,Bus,Weekday,900
-June 2019,43,Bus,Weekday,900
-June 2019,44,Bus,Weekday,900
-June 2019,45,Bus,Weekday,900
-June 2019,48,Bus,Weekday,900
-June 2019,49,Bus,Weekday,900
-June 2019,5,Bus,Weekday,900
-June 2019,52,Bus,Weekday,900
-June 2019,54,Bus,Weekday,900
-June 2019,55,Bus,Weekday,900
-June 2019,56,Bus,Weekday,900
-June 2019,57,Bus,Weekday,900
-June 2019,58,Bus,Weekday,900
-June 2019,6,Bus,Weekday,900
-June 2019,66,Bus,Weekday,900
-June 2019,67,Bus,Weekday,900
-June 2019,7,Bus,Weekday,900
-June 2019,8,Bus,Weekday,900
-June 2019,9,Bus,Weekday,900
-June 2019,90,Bus,Weekday,900
-June 2019,91,Bus,Weekday,900
-June 2019,14R,Bus,Weekday,900
-June 2019,1X,Bus,Weekday,900
-June 2019,28R,Bus,Weekday,900
-June 2019,30X,Bus,Weekday,900
-June 2019,38R,Bus,Weekday,900
-June 2019,5R,Bus,Weekday,900
-June 2019,8AX,Bus,Weekday,900
-June 2019,8BX,Bus,Weekday,900
-June 2019,9R,Bus,Weekday,900
-June 2019,KBUS,Bus,Weekday,900
-June 2019,LOWL,Bus,Weekday,900
-June 2019,NBUS,Bus,Weekday,900
-June 2019,NOWL,Bus,Weekday,900
-June 2019,TBUS,Bus,Weekday,900
-June 2019,CA,Cable Car,Weekday,900
-June 2019,PH,Cable Car,Weekday,900
-June 2019,PM,Cable Car,Weekday,900
-June 2019,F,Light Rail,Weekday,900
-June 2019,FBUS,Light Rail,Weekday,900
-June 2019,J,Light Rail,Weekday,900
-June 2019,K,Light Rail,Weekday,900
-June 2019,L,Light Rail,Weekday,900
-June 2019,M,Light Rail,Weekday,900
-June 2019,N,Light Rail,Weekday,900
-June 2019,T,Light Rail,Weekday,900
+June 2019,1,Bus,Saturday,"2,499"
+June 2019,12,Bus,Saturday,"2,482"
+June 2019,14,Bus,Saturday,"2,543"
+June 2019,15,Bus,Saturday,"2,819"
+June 2019,18,Bus,Saturday,"2,483"
+June 2019,19,Bus,Saturday,"2,783"
+June 2019,2,Bus,Saturday,"2,401"
+June 2019,22,Bus,Saturday,"2,575"
+June 2019,23,Bus,Saturday,"2,519"
+June 2019,24,Bus,Saturday,"2,952"
+June 2019,25,Bus,Saturday,"2,465"
+June 2019,27,Bus,Saturday,"2,821"
+June 2019,28,Bus,Saturday,"2,458"
+June 2019,29,Bus,Saturday,"2,675"
+June 2019,30,Bus,Saturday,"2,579"
+June 2019,31,Bus,Saturday,"2,579"
+June 2019,33,Bus,Saturday,"2,681"
+June 2019,35,Bus,Saturday,"2,717"
+June 2019,36,Bus,Saturday,"2,646"
+June 2019,37,Bus,Saturday,"2,709"
+June 2019,38,Bus,Saturday,"2,565"
+June 2019,39,Bus,Saturday,"2,742"
+June 2019,43,Bus,Saturday,"2,648"
+June 2019,44,Bus,Saturday,"2,756"
+June 2019,45,Bus,Saturday,"2,470"
+June 2019,48,Bus,Saturday,"2,760"
+June 2019,49,Bus,Saturday,"2,595"
+June 2019,5,Bus,Saturday,"2,428"
+June 2019,52,Bus,Saturday,"2,575"
+June 2019,54,Bus,Saturday,"3,278"
+June 2019,55,Bus,Saturday,"2,381"
+June 2019,56,Bus,Saturday,"2,807"
+June 2019,57,Bus,Saturday,"2,630"
+June 2019,58,Bus,Saturday,"2,343"
+June 2019,6,Bus,Saturday,"2,664"
+June 2019,66,Bus,Saturday,"2,613"
+June 2019,67,Bus,Saturday,"2,683"
+June 2019,7,Bus,Saturday,"2,545"
+June 2019,8,Bus,Saturday,"2,606"
+June 2019,9,Bus,Saturday,"2,534"
+June 2019,90,Bus,Saturday,"2,367"
+June 2019,91,Bus,Saturday,"2,719"
+June 2019,14R,Bus,Saturday,"2,406"
+June 2019,1X,Bus,Saturday,"2,373"
+June 2019,28R,Bus,Saturday,"2,329"
+June 2019,30X,Bus,Saturday,"2,343"
+June 2019,38R,Bus,Saturday,"2,455"
+June 2019,5R,Bus,Saturday,"2,464"
+June 2019,8AX,Bus,Saturday,"2,519"
+June 2019,8BX,Bus,Saturday,"2,596"
+June 2019,9R,Bus,Saturday,"2,375"
+June 2019,KBUS,Bus,Saturday,"2,395"
+June 2019,LOWL,Bus,Saturday,"2,551"
+June 2019,NBUS,Bus,Saturday,"2,529"
+June 2019,NOWL,Bus,Saturday,"2,467"
+June 2019,TBUS,Bus,Saturday,"2,263"
+June 2019,CA,Cable Car,Saturday,"2,223"
+June 2019,PH,Cable Car,Saturday,"2,267"
+June 2019,PM,Cable Car,Saturday,"1,924"
+June 2019,F,Light Rail,Saturday,"2,457"
+June 2019,FBUS,Light Rail,Saturday,"2,460"
+June 2019,J,Light Rail,Saturday,"2,428"
+June 2019,K,Light Rail,Saturday,"2,382"
+June 2019,L,Light Rail,Saturday,"2,546"
+June 2019,M,Light Rail,Saturday,"2,187"
+June 2019,N,Light Rail,Saturday,"2,389"
+June 2019,T,Light Rail,Saturday,"2,436"
+June 2019,1,Bus,Sunday,"1,969"
+June 2019,12,Bus,Sunday,"2,089"
+June 2019,14,Bus,Sunday,"2,010"
+June 2019,15,Bus,Sunday,"2,126"
+June 2019,18,Bus,Sunday,"1,971"
+June 2019,19,Bus,Sunday,"2,285"
+June 2019,2,Bus,Sunday,"1,807"
+June 2019,22,Bus,Sunday,"2,071"
+June 2019,23,Bus,Sunday,"2,046"
+June 2019,24,Bus,Sunday,"2,312"
+June 2019,25,Bus,Sunday,"2,014"
+June 2019,27,Bus,Sunday,"2,159"
+June 2019,28,Bus,Sunday,"1,844"
+June 2019,29,Bus,Sunday,"2,063"
+June 2019,30,Bus,Sunday,"2,004"
+June 2019,31,Bus,Sunday,"1,949"
+June 2019,33,Bus,Sunday,"2,030"
+June 2019,35,Bus,Sunday,"2,114"
+June 2019,36,Bus,Sunday,"2,160"
+June 2019,37,Bus,Sunday,"2,105"
+June 2019,38,Bus,Sunday,"1,970"
+June 2019,39,Bus,Sunday,"2,081"
+June 2019,43,Bus,Sunday,"2,157"
+June 2019,44,Bus,Sunday,"2,216"
+June 2019,45,Bus,Sunday,"1,867"
+June 2019,48,Bus,Sunday,"2,123"
+June 2019,49,Bus,Sunday,"1,978"
+June 2019,5,Bus,Sunday,"1,966"
+June 2019,52,Bus,Sunday,"2,102"
+June 2019,54,Bus,Sunday,"2,669"
+June 2019,55,Bus,Sunday,"1,823"
+June 2019,56,Bus,Sunday,"2,153"
+June 2019,57,Bus,Sunday,"2,039"
+June 2019,58,Bus,Sunday,"1,871"
+June 2019,6,Bus,Sunday,"2,057"
+June 2019,66,Bus,Sunday,"2,052"
+June 2019,67,Bus,Sunday,"2,152"
+June 2019,7,Bus,Sunday,"2,028"
+June 2019,8,Bus,Sunday,"1,988"
+June 2019,9,Bus,Sunday,"1,953"
+June 2019,90,Bus,Sunday,"1,922"
+June 2019,91,Bus,Sunday,"2,055"
+June 2019,14R,Bus,Sunday,"1,857"
+June 2019,1X,Bus,Sunday,"1,801"
+June 2019,28R,Bus,Sunday,"1,843"
+June 2019,30X,Bus,Sunday,"1,813"
+June 2019,38R,Bus,Sunday,"1,882"
+June 2019,5R,Bus,Sunday,"1,902"
+June 2019,8AX,Bus,Sunday,"1,965"
+June 2019,8BX,Bus,Sunday,"1,974"
+June 2019,9R,Bus,Sunday,"1,866"
+June 2019,KBUS,Bus,Sunday,"1,849"
+June 2019,LOWL,Bus,Sunday,"1,963"
+June 2019,NBUS,Bus,Sunday,"2,034"
+June 2019,NOWL,Bus,Sunday,"1,953"
+June 2019,TBUS,Bus,Sunday,"1,731"
+June 2019,CA,Cable Car,Sunday,"1,654"
+June 2019,PH,Cable Car,Sunday,"1,708"
+June 2019,PM,Cable Car,Sunday,"1,453"
+June 2019,F,Light Rail,Sunday,"1,845"
+June 2019,FBUS,Light Rail,Sunday,"1,815"
+June 2019,J,Light Rail,Sunday,"1,935"
+June 2019,K,Light Rail,Sunday,"1,901"
+June 2019,L,Light Rail,Sunday,"1,943"
+June 2019,M,Light Rail,Sunday,"1,779"
+June 2019,N,Light Rail,Sunday,"1,925"
+June 2019,T,Light Rail,Sunday,"1,872"
+June 2019,1,Bus,Weekday,"2,370"
+June 2019,12,Bus,Weekday,"2,522"
+June 2019,14,Bus,Weekday,"2,428"
+June 2019,15,Bus,Weekday,"2,668"
+June 2019,18,Bus,Weekday,"2,356"
+June 2019,19,Bus,Weekday,"2,794"
+June 2019,2,Bus,Weekday,"2,235"
+June 2019,22,Bus,Weekday,"2,357"
+June 2019,23,Bus,Weekday,"2,455"
+June 2019,24,Bus,Weekday,"2,735"
+June 2019,25,Bus,Weekday,"2,389"
+June 2019,27,Bus,Weekday,"2,629"
+June 2019,28,Bus,Weekday,"2,353"
+June 2019,29,Bus,Weekday,"2,559"
+June 2019,30,Bus,Weekday,"2,436"
+June 2019,31,Bus,Weekday,"2,413"
+June 2019,33,Bus,Weekday,"2,599"
+June 2019,35,Bus,Weekday,"2,575"
+June 2019,36,Bus,Weekday,"2,612"
+June 2019,37,Bus,Weekday,"2,560"
+June 2019,38,Bus,Weekday,"2,412"
+June 2019,39,Bus,Weekday,"2,535"
+June 2019,43,Bus,Weekday,"2,536"
+June 2019,44,Bus,Weekday,"2,718"
+June 2019,45,Bus,Weekday,"2,317"
+June 2019,48,Bus,Weekday,"2,646"
+June 2019,49,Bus,Weekday,"2,356"
+June 2019,5,Bus,Weekday,"2,360"
+June 2019,52,Bus,Weekday,"2,532"
+June 2019,54,Bus,Weekday,"3,100"
+June 2019,55,Bus,Weekday,"2,300"
+June 2019,56,Bus,Weekday,"2,685"
+June 2019,57,Bus,Weekday,"2,498"
+June 2019,58,Bus,Weekday,"2,238"
+June 2019,6,Bus,Weekday,"2,442"
+June 2019,66,Bus,Weekday,"2,514"
+June 2019,67,Bus,Weekday,"2,609"
+June 2019,7,Bus,Weekday,"2,497"
+June 2019,8,Bus,Weekday,"2,414"
+June 2019,9,Bus,Weekday,"2,372"
+June 2019,90,Bus,Weekday,"2,246"
+June 2019,91,Bus,Weekday,"2,573"
+June 2019,14R,Bus,Weekday,"2,350"
+June 2019,1X,Bus,Weekday,"2,261"
+June 2019,28R,Bus,Weekday,"2,279"
+June 2019,30X,Bus,Weekday,"2,194"
+June 2019,38R,Bus,Weekday,"2,331"
+June 2019,5R,Bus,Weekday,"2,324"
+June 2019,8AX,Bus,Weekday,"2,302"
+June 2019,8BX,Bus,Weekday,"2,486"
+June 2019,9R,Bus,Weekday,"2,304"
+June 2019,KBUS,Bus,Weekday,"2,221"
+June 2019,LOWL,Bus,Weekday,"2,406"
+June 2019,NBUS,Bus,Weekday,"2,492"
+June 2019,NOWL,Bus,Weekday,"2,412"
+June 2019,TBUS,Bus,Weekday,"2,121"
+June 2019,CA,Cable Car,Weekday,"2,044"
+June 2019,PH,Cable Car,Weekday,"2,110"
+June 2019,PM,Cable Car,Weekday,"1,850"
+June 2019,F,Light Rail,Weekday,"2,323"
+June 2019,FBUS,Light Rail,Weekday,"2,248"
+June 2019,J,Light Rail,Weekday,"2,334"
+June 2019,K,Light Rail,Weekday,"2,284"
+June 2019,L,Light Rail,Weekday,"2,422"
+June 2019,M,Light Rail,Weekday,"2,095"
+June 2019,N,Light Rail,Weekday,"2,314"
+June 2019,T,Light Rail,Weekday,"2,335"

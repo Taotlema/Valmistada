@@ -1,7 +1,10 @@
 # Valmistada: Synthetic Data Research
 
-## GTFS Data Exploration
-Repository dedicated to data exploration for GTFS datasets in the United States and Europe
+Valmistada is an undergraduate research project investigating whether rule-governed simulation can generate synthetic transit ridership data that reliably reflects real-world behavior. The central question is whether a simulation grounded in the universal rules of a real transit system can produce data useful enough to substitute for observed data in AI and planning applications.
+
+The project builds a PyQt6 desktop simulation of the San Francisco MUNI network using real GTFS schedule data, SFMTA historical ridership, U.S. Census demographics, LODES employment flows, and SF land-use parcel data. Four generation models of increasing complexity {Deterministic, High-Fidelity, Rule-Based v1, and Rule-Based v2} each produce synthetic average daily boardings by route, month, service category, and day type across a simulated 2019 year. The resulting synthetic trials are benchmarked against the original 2019 SFMTA ridership data and an ML regression ceiling to measure distributional fidelity.
+
+The findings show the simulation correctly reproduces the structural properties of the MUNI network but produces boardings below real-world scale, with the gap traceable to uncalibrated base demand rather than a flaw in the generative architecture.
 
 ## Colaborators
 ### Ayemhenre Isikhuemhen

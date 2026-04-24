@@ -26,7 +26,7 @@ List of reasources used for creating this project.
 **Simulation Framework**
 - PyQt6 — https://www.riverbankcomputing.com/software/pyqt/
 - Qt6 — https://www.qt.io/
-- PyYAML — https://yaml.org/
+- PyYAML — https://yaml.org/  
 = Python 3 — https://www.python.org/
 
 **Analysis Libraries**
